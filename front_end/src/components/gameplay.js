@@ -1,10 +1,13 @@
 import React from 'react';
-import './components-css/login.css'
+import { connect } from 'react-redux';
+import './components-css/login.css';
 
 export class Gameplay extends React.Component {
 
   render() {
-    <h1>Hello world</h1>
+    return (
+      <h1>Hello world</h1>
+    )
   }
 
 }
