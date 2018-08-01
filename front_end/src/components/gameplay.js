@@ -1,24 +1,16 @@
 import React from 'react';
-import './components-css/gameplay.css'
+import './components-css/login.css'
 
-export default class Gameplay extends React.Component {
-  constructor(props) {
-    super(props)
+export class Gameplay extends React.Component {
 
-    this.state = {
-
-    }
+  render() {
+    <h1>Hello world</h1>
   }
 
-  render(){
-    return(
-      <div>
-        <h1 className="title">{this.props.title}</h1>
-        <div className="buttons-container">
-          <button className="login-button" type="button">Login</button>
-          <button className="signup-button" type="button">Signup</button>
-        </div>
-      </div>
-    )
-  }
 }
+
+const mapStateToProps = state => ({
+
+});
+
+export default connect(mapStateToProps)(Gameplay);
