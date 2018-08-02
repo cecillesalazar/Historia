@@ -3,18 +3,38 @@
 const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
+const mongoose = require('mongoose');
+const User = require('./user-schema.js');
 
 const { PORT, CLIENT_ORIGIN } = require('./config');
 const { dbConnect } = require('./db-mongoose');
-// const {dbConnect} = require('./db-knex');
 
 const app = express();
+app.use(express.json());
 
 app.use(
   morgan(process.env.NODE_ENV === 'production' ? 'common' : 'dev', {
     skip: (req, res) => process.env.NODE_ENV === 'test'
   })
 );
+
+app.post('/', (req, res, next) => {
+  const username = req.body.username;
+  const password = req.body.password;
+
+  const newUser = { username, password }
+  User
+  .create(newUser)
+  .then(result => {
+    res
+      .location(`${req.originalUrl}`)
+      .status(201)
+      .json(result)
+  })
+  .catch(err => {
+    next(err)
+  })
+})
 
 app.use(
   cors({
