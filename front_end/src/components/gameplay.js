@@ -13,7 +13,7 @@ export class Gameplay extends React.Component {
 }
 
 const mapStateToProps = state => ({
-
+  mappedState: state
 });
 
 export default connect(mapStateToProps)(Gameplay);
