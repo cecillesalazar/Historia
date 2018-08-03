@@ -1,8 +1,7 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import './components-css/login.css';
 
-export class Gameplay extends React.Component {
+export default class Gameplay extends React.Component {
 
   render() {
     return (
@@ -11,9 +10,3 @@ export class Gameplay extends React.Component {
   }
 
 }
-
-const mapStateToProps = state => ({
-  mappedState: state
-});
-
-export default connect(mapStateToProps)(Gameplay);
