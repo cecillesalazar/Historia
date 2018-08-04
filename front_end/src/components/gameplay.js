@@ -1,12 +1,13 @@
 import React from 'react';
 import './components-css/login.css';
-import getSingleNode from './helper.js';
 
 export default class Gameplay extends React.Component {
 
   render() {
     return (
-      <h1>Hello world</h1>
+      <div>
+        <h1>{this.props.storyNode.story}</h1>
+      </div>
     )
   }
 
