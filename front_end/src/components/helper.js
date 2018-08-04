@@ -134,3 +134,7 @@ const STORY_GRAPH = {
     story: 'Plot for BAD_ENDING',
   }
 }
+
+export default function getSingleNode(props) {
+  return STORY_GRAPH[props.currentNode]
+};
