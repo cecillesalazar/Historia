@@ -5,5 +5,11 @@ const initialState = {
 };
 
 export const reducer = (state = initialState, action) => {
-  return state;
+  if(action.type === 'CHANGE_NODE') {
+    return Object.assign({}, state, {
+      currentStoryNodeKey: action.currentNode
+    })
+  } else {
+    return state;
+  }
 }
