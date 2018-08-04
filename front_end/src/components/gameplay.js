@@ -1,5 +1,4 @@
 import React from 'react';
-import './components-css/login.css';
 import { connect } from 'react-redux';
 import helper from './helper.js';
 import { changeNode } from '../actions/actions.js';
