@@ -135,6 +135,6 @@ const STORY_GRAPH = {
   }
 }
 
-export default function getSingleNode(props) {
-  return STORY_GRAPH[props.currentNode]
+export default function getSingleNode(key) {
+  return STORY_GRAPH[key]
 };
