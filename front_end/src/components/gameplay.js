@@ -1,7 +1,9 @@
 import React from 'react';
 import './components-css/login.css';
+import { connect } from 'react-redux';
+import helper from './helper.js';
 
-export default class Gameplay extends React.Component {
+class Gameplay extends React.Component {
 
   render() {
     return (
@@ -12,3 +14,9 @@ export default class Gameplay extends React.Component {
   }
 
 }
+
+function mapStateToProps(state) {
+  return { storyNode: helper.getStoryNode(state.currentStoryNodeKey) }
+}
+
+export default connect(mapStateToProps)(Gameplay);
