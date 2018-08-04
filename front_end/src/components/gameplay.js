@@ -9,7 +9,7 @@ class Gameplay extends React.Component {
     return (
       <div>
         <h1>{this.props.storyNode.story}</h1>
-        <button type="button" onClick={() => this.props.dispatch(changeNode('SERG_TELLS_STORY'))}>Next</button>
+        <button type="button" onClick={() => this.props.dispatch(changeNode(this.props.storyNode.options[0]))}>Next</button>
       </div>
     )
   }
