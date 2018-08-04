@@ -135,6 +135,25 @@ const STORY_GRAPH = {
   }
 }
 
-export default function getSingleNode(key) {
-  return STORY_GRAPH[key]
+const getStoryNode = (key) => STORY_GRAPH[key];
+
+export default {
+  getStoryNode,
+  SERG_ARRIVES,
+  SERG_TELLS_STORY,
+  COVETS_PAW,
+  FIRST_WISH,
+  WISH_FOR_200_LBS,
+  THROW_IN_FIRE_BEFORE_WISH,
+  HAPPY_ENDING,
+  HERBERT_DIES,
+  SECOND_WISH,
+  WISH_HERBERT_BACK,
+  THROW_IN_FIRE_AFTER_WISH,
+  KNOCK_DOOR,
+  THIRD_WISH,
+  SAD_ENDING,
+  WISH_HERBERT_DISAPPEAR,
+  LET_WIFE_OPEN_DOOR,
+  BAD_ENDING,
 };

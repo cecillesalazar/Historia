@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helper should return the story node for the key passed 1`] = `
+Object {
+  "key": "BAD_ENDING",
+  "options": Array [],
+  "story": "Plot for BAD_ENDING",
+}
+`;
