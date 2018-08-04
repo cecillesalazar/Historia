@@ -8,15 +8,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
   <Provider store={store}>
-    <Gameplay
-      storyNode={{
-        key: 'SERG_ARRIVES',
-        options: [
-          'SERG_TELLS_STORY'
-        ],
-        story: 'Plot for SERG_ARRIVES',
-      }}
-    />
+    <Gameplay />
   </Provider>,
   document.getElementById('root'));
 registerServiceWorker();
