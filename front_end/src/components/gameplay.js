@@ -1,5 +1,6 @@
 import React from 'react';
 import './components-css/login.css';
+import getSingleNode from './helper.js';
 
 export default class Gameplay extends React.Component {
 
