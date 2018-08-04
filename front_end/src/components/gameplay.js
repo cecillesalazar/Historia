@@ -9,6 +9,7 @@ class Gameplay extends React.Component {
     return (
       <div>
         <h1>{this.props.storyNode.story}</h1>
+        <button type="button" className="next-button">Next</button>
       </div>
     )
   }
