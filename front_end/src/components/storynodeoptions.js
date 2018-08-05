@@ -11,8 +11,8 @@ export default class StoryNodeOptions extends React.Component {
     } else {
       return (
         <div>
-          <button type="button" onClick={() => this.props.changeStoryNode(this.props.options[0])}>'Wish For 200 Pounds'</button>
-          <button type="button" onClick={() => this.props.changeStoryNode(this.props.options[1])}>'Throw in Fire'</button>
+          <button type="button" onClick={() => this.props.changeStoryNode(this.props.options[0])}>{this.props.options[0]}</button>
+          <button type="button" onClick={() => this.props.changeStoryNode(this.props.options[1])}>{this.props.options[1]}</button>
         </div>
       )
     }
