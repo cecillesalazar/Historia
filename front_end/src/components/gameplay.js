@@ -6,9 +6,6 @@ export default class Gameplay extends React.Component {
     return (
       <div>
         <StoryNode />
-        <button type="button">Quit</button>
-        <button type="button">Save</button>
-        <button type="restart">Restart</button>
       </div>
     )
   }
