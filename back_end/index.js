@@ -38,8 +38,8 @@ app.post('/', (req, res, next) => {
 
 app.put('/:id', (req, res, next) => {
   const { id } = req.params;
-  const { username, password, saveFile } = req.body;
-  const updatedUser = { username, password, saveFile };
+  const { saveFile } = req.body;
+  const updatedUser = { saveFile };
 
   if(saveFile) {
     User.findById(id, function(err, user) {
