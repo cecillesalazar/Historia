@@ -6,13 +6,4 @@ const userSchema = new mongoose.Schema({
   saveFile: { type: String }
 })
 
-userSchema.set('toObject', {
-  virtuals: true,     // include built-in virtual `id`
-  versionKey: false,  // remove `__v` version key
-  transform: (doc, ret) => {
-    delete ret._id; // delete `_id`
-    delete ret.saveFile;
-  }
-});
-
 module.exports = mongoose.model('User', userSchema);
