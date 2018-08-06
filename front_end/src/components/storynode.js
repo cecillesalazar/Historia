@@ -18,6 +18,7 @@ class StoryNode extends React.Component {
           />
           <Save
             currentStoryNodeKey={this.props.storyNode.key}
+            dispatch={this.props.dispatch}
           />
         </div>
       )
