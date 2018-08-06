@@ -24,16 +24,39 @@ app.post('/', (req, res, next) => {
 
   const newUser = { username, password }
   User
-  .create(newUser)
-  .then(result => {
-    res
-      .location(`${req.originalUrl}`)
-      .status(201)
-      .json(result)
-  })
-  .catch(err => {
-    next(err)
-  })
+    .create(newUser)
+    .then(result => {
+      res
+        .location(`${req.originalUrl}`)
+        .status(201)
+        .json(result)
+    })
+    .catch(err => {
+      next(err)
+    })
+})
+
+app.put('/:id', (req, res, next) => {
+  const { id } = req.params;
+  const { username, password, saveFile } = req.body;
+  const updatedUser = { username, password, saveFile };
+
+  if(saveFile) {
+    User.findById(id, function(err, user) {
+      if(err) {
+        next(err);
+      } else {
+        user.saveFile = saveFile;
+        user.save((err, saveUser) => {
+          if(err) {
+            next(err);
+          } else {
+            res.location(`${req.originalUrl}`).status(201).json(saveUser)
+          }
+        })
+      }
+    })
+  }
 })
 
 app.use(
