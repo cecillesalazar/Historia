@@ -5,7 +5,7 @@ export default class Save extends React.Component {
   render() {
     return (
       <div>
-        <button type="button" onClick={() => saveGame(this.props.currentStoryNodeKey)}>Save</button>
+        <button type="button" onClick={() => this.props.dispatch(saveGame(this.props.currentStoryNodeKey))}>Save</button>
       </div>
     )
   }
