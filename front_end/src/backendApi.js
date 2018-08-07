@@ -3,7 +3,7 @@
 import { saveFileSuccess } from './actions/actions.js';
 
 export const saveGame = saveFile => dispatch => {
-  return fetch('http://localhost:8080/5b6867ee107abe0f460f2eff', {
+  return fetch('/5b6867ee107abe0f460f2eff', {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
@@ -14,9 +14,10 @@ export const saveGame = saveFile => dispatch => {
   .then(storyNode => dispatch(saveFileSuccess(storyNode)));
 };
 
-export const loadGame = dispatch => {
-  return fetch('http://localhost:8080/5b6867ee107abe0f460f2eff', {
+export const loadGame = () => {
+  return fetch('/5b6867ee107abe0f460f2eff', {
     method: 'GET'
   })
-  .then(res => res.json(res.saveFile))
+  .then(res => res.json())
+  .then(json => json.saveFile);
 }
