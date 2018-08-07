@@ -17,6 +17,7 @@ class StoryNode extends React.Component {
           <StoryNodeOptions
             changeStoryNode={this.changeStoryNode}
             options={this.props.storyNode.options}
+            buttons={this.props.storyNode.button}
           />
           <Save
             currentStoryNodeKey={this.props.storyNode.key}
