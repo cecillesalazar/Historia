@@ -5,7 +5,7 @@ export default class Restart extends React.Component {
   render() {
     return (
       <div>
-        <button type="button" onClick={() => this.props.changeStoryNode(helper.STORY_GRAPH['SERG_ARRIVES'].key)}>Restart</button>
+        <button type="button" onClick={() => this.props.changeStoryNode('SERG_ARRIVES')}>Restart</button>
       </div>
     )
   }
