@@ -2,7 +2,7 @@ import helper from '../components/helper.js';
 import { saveFileSuccess } from '../actions/actions.js';
 
 const initialState = {
-  currentStoryNodeKey: helper.SERG_ARRIVES
+  currentStoryNodeKey: helper.STORY_GRAPH['SERG_ARRIVES'].key
 };
 
 export const reducer = (state = initialState, action) => {
