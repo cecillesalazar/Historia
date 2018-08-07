@@ -5,6 +5,7 @@ import { changeNode } from '../actions/actions.js';
 import StoryNodeOptions from './storynodeoptions.js';
 import Save from './savefeature.js';
 import Load from './loadfeature.js';
+import Restart from './restartfeature.js';
 
 class StoryNode extends React.Component {
   changeStoryNode = (storyNodeKey) => this.props.dispatch(changeNode(storyNodeKey));
@@ -22,6 +23,9 @@ class StoryNode extends React.Component {
             dispatch={this.props.dispatch}
           />
           <Load
+            changeStoryNode={this.changeStoryNode}
+          />
+          <Restart
             changeStoryNode={this.changeStoryNode}
           />
         </div>
