@@ -9,3 +9,9 @@ export const saveFileSuccess = storyNode => ({
     type: SAVE_FILE_SUCCESS,
     storyNode
 });
+
+const CHANGE_STORY = 'CHANGE_STORY';
+export const changeStory = (story) =>({
+  type: CHANGE_STORY,
+  story
+})
