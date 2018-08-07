@@ -5,7 +5,7 @@ export default class Load extends React.Component {
   render() {
     return (
       <div>
-        <button type="button" onClick={() => this.props.changeStoryNode(loadGame())}>Load</button>
+        <button type="button" onClick={() => loadGame().then(this.props.changeStoryNode)}>Load</button>
       </div>
     )
   }
