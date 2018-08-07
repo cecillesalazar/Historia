@@ -1,9 +1,11 @@
 import helper from '../components/helper.js';
 import { saveFileSuccess } from '../actions/actions.js';
 
+import { STORIES } from '../backendApi.js' // Temp stop gap get rid of me!!
+
 const initialState = {
-  currentStoryGraph: null,
-  currentStoryNodeKey: helper.STORY_GRAPH['SERG_ARRIVES'].key
+  currentStory: STORIES[0],
+  currentStoryNodeKey: 'SERG_ARRIVES',
 };
 
 export const reducer = (state = initialState, action) => {
