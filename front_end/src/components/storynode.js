@@ -37,7 +37,7 @@ class StoryNode extends React.Component {
 
 function mapStateToProps(state) {
   return {
-    storyNode: helper.getStoryNode(state.currentStoryNodeKey)
+    storyNode: helper.getStoryNode(state)
    }
 }
 
