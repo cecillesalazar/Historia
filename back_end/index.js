@@ -17,6 +17,18 @@ app.use(
     skip: (req, res) => process.env.NODE_ENV === 'test'
   })
 );
+app.get('/:id', (req, res, next) => {
+  const { id } = req.params;
+
+  User
+    .findById(id)
+    .then(result => {
+      res.json(result)
+    })
+    .catch(err => {
+      next(err)
+    })
+})
 
 app.post('/', (req, res, next) => {
   const username = req.body.username;
