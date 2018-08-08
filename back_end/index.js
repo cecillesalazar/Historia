@@ -4,16 +4,25 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+const passport = require('passport');
 const User = require('./user-schema.js');
-const localStrategy = require('./local-strategy.js');
 const userRouter = require('./routes/user.js');
+const { router: authRouter, localStrategy, jwtStrategy } = require('./auth');
+mongoose.Promise = global.Promise;
+
 
 const { PORT, CLIENT_ORIGIN } = require('./config');
 const { dbConnect } = require('./db-mongoose');
 
 const app = express();
 app.use(express.json());
+
+passport.use(localStrategy);
+passport.use(jwtStrategy);
+
 app.use('/', userRouter);
+app.use('/', authRouter);
+
 app.use(
   morgan(process.env.NODE_ENV === 'production' ? 'common' : 'dev', {
     skip: (req, res) => process.env.NODE_ENV === 'test'
