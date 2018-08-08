@@ -7,6 +7,7 @@ const initialState = {
   currentStory: STORIES[0],
   currentStoryNodeKey: 'SERG_ARRIVES',
   playButton: false,
+  tutorialButton: false,
 };
 
 export const reducer = (state = initialState, action) => {
@@ -26,6 +27,10 @@ export const reducer = (state = initialState, action) => {
   } else if(action.type === 'DISPLAY_GAMEPLAY') {
     return Object.assign({}, state, {
       playButton: action.bool
+    })
+  } else if(action.type === 'DISPLAY_TUTORIAL') {
+    return Object.assign({}, state, {
+      tutorialButton: action.bool
     })
   } else {
     return state;
