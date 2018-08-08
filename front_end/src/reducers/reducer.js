@@ -6,6 +6,7 @@ import { STORIES } from '../backendApi.js' // Temp stop gap get rid of me!!
 const initialState = {
   currentStory: STORIES[0],
   currentStoryNodeKey: 'SERG_ARRIVES',
+  playButton: false,
 };
 
 export const reducer = (state = initialState, action) => {
@@ -21,6 +22,10 @@ export const reducer = (state = initialState, action) => {
     return Object.assign({}, state, {
       currentStoryGraph: action.story,
       currentStoryNodeKey: action.story.startNode
+    })
+  } else if(action.type === 'DISPLAY_GAMEPLAY') {
+    return Object.assign({}, state, {
+      playButton: action.bool
     })
   } else {
     return state;
