@@ -1,11 +1,11 @@
 const express = require('express');
-const router = express.Router();
-router.use(express.json());
 
 const passport = require('passport');
 const { Strategy: LocalStrategy } = require('passport-local');
 
 const User = require('../user-schema.js');
+const router = express.Router();
+router.use(express.json());
 
 router.get('/:id', (req, res, next) => {
   const { id } = req.params;
