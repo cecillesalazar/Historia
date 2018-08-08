@@ -59,7 +59,7 @@ router.get('/:id', (req, res, next) => {
     })
 })
 
-router.post('/', (req, res, next) => {
+router.post('/', (req, res) => {
   const username = req.body.username;
   const password = req.body.password;
 
@@ -142,7 +142,6 @@ router.post('/', (req, res, next) => {
       .count()
       .then(count => {
         if (count > 0) {
-          // There is an existing user with the same username
           return Promise.reject({
             code: 422,
             reason: 'ValidationError',
