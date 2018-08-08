@@ -10,7 +10,7 @@ import {setAuthToken, refreshAuthToken} from './actions/auth';
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
     combineReducers({
-      reducer,
+      game: reducer,
       form: formReducer,
       auth: authReducer,
       protectedData: protectedDataReducer
