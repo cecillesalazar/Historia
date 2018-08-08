@@ -1,13 +1,10 @@
 import React from 'react';
-import './components-css/login.css'
+import './components-css/login.css';
+import Gameplay from './gameplay.js';
 
 export default class Login extends React.Component {
   constructor(props) {
     super(props)
-
-    this.state = {
-
-    }
   }
 
   render(){
