@@ -4,6 +4,8 @@ const router = express.Router();
 const User = require('../user-schema.js');
 const mongoose = require('mongoose');
 
+router.use(express.json());
+
 router.get('/:id', (req, res, next) => {
   const { id } = req.params;
 
