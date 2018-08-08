@@ -135,9 +135,7 @@ router.post('/', (req, res) => {
       location: tooSmallField || tooLargeField
     });
   }
-
-  return
-    User
+  return User
       .find({username})
       .count()
       .then(count => {
