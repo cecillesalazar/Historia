@@ -7,5 +7,7 @@ module.exports = {
         process.env.DATABASE_URL || 'mongodb://cecillesalazar:csalazar1@ds163781.mlab.com:63781/historia-users',
   TEST_DATABASE_URL:
         process.env.TEST_DATABASE_URL ||
-        'mongodb://localhost/thinkful-backend-test'
+        'mongodb://localhost/thinkful-backend-test',
+  JWT_SECRET: 'miko',
+  JWT_EXPIRY: '7d'
 };
