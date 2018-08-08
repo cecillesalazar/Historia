@@ -21,3 +21,9 @@ export const displayGameplay = (bool) => ({
   type: DISPLAY_GAMEPLAY,
   bool
 })
+
+const DISPLAY_TUTORIAL = 'DISPLAY_TUTORIAL';
+export const displayTutorial = (bool) => ({
+  type: DISPLAY_TUTORIAL,
+  bool
+})
