@@ -7,6 +7,14 @@ const userSchema = new mongoose.Schema({
   saveFile: { type: String }
 })
 
+userSchema.methods.serialize = function () {
+  return {
+    id: this._id,
+    username: this.username,
+    password: this.password
+  };
+};
+
 userSchema.methods.validatePassword = function (password) {
   return bcrypt.compare(password, this.password);
 };
