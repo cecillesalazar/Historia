@@ -4,6 +4,7 @@ import Tutorial from './tutorial.js';
 import {connect} from 'react-redux';
 import requiresLogin from './requires-login';
 import { displayGameplay, displayTutorial } from '../actions/actions.js';
+import { getPlayButton, getTutorialButton } from './helper.js';
 
 export class Dashboard extends React.Component {
   constructor(props) {
@@ -54,8 +55,8 @@ const mapStateToProps = state => {
     const {currentUser} = state.auth;
     return {
         username: state.auth.currentUser.username,
-        playButton: state.game.playButton,
-        tutorialButton: state.game.tutorialButton
+        playButton: getPlayButton(state),
+        tutorialButton: getTutorialButton(state)
     };
 };
 
