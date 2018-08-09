@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { getStoryNode } from './helper.js';
-import { changeNode } from '../actions/actions.js';
+import { changeNode, changeStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
 import Save from './savefeature.js';
@@ -10,6 +10,8 @@ import Restart from './restartfeature.js';
 
 class StoryNode extends React.Component {
   changeStoryNode = (storyNodeKey) => this.props.dispatch(changeNode(storyNodeKey));
+  changeStoryIndex = (storyIndex) => this.props.dispatch(changeStoryIndex(storyIndex));
+  changeSpeakerIndex = (speakerIndex) => this.props.dispatch(changeSpeakerIndex(storyIndex));
 
   render() {
       return (
