@@ -7,7 +7,7 @@ export default class StoryNodePlot extends React.Component {
         <div>
           <p>{this.props.speaker[this.props.speakerIndex]}</p>
           <p>{this.props.story[this.props.storyIndex]}</p>
-          <button type="button">Next</button>
+          <button type="button" onClick={() => this.props.changeSpeakerIndex(this.props.speakerIndex + 1) && this.props.changeStoryIndex(this.props.storyIndex + 1)}>Next</button>
         </div>
       </div>
     )
