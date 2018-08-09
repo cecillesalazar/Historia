@@ -11,7 +11,7 @@ import Restart from './restartfeature.js';
 class StoryNode extends React.Component {
   changeStoryNode = (storyNodeKey) => this.props.dispatch(changeNode(storyNodeKey));
   changeStoryIndex = (storyIndex) => this.props.dispatch(changeStoryIndex(storyIndex));
-  changeSpeakerIndex = (speakerIndex) => this.props.dispatch(changeSpeakerIndex(storyIndex));
+  changeSpeakerIndex = (speakerIndex) => this.props.dispatch(changeSpeakerIndex(speakerIndex));
 
   render() {
       return (
@@ -46,8 +46,8 @@ class StoryNode extends React.Component {
 function mapStateToProps(state) {
   return {
     storyNode: getStoryNode(state),
-    storyIndex: state.storyIndex,
-    speakerIndex: state.speakerIndex
+    storyIndex: state.game.storyIndex,
+    speakerIndex: state.game.speakerIndex
    }
 }
 
