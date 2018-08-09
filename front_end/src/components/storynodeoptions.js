@@ -3,7 +3,7 @@ import React from 'react';
 export default class StoryNodeOptions extends React.Component {
   render() {
     const options = this.props.options.map((option, index) => (
-      <button key={option} type="button" onClick={() => this.props.changeStoryNode(option)}>
+      <button key={option} type="button" onClick={() => this.props.changeStoryNode(option) && this.props.changeStoryIndex(0) && this.props.changeSpeakerIndex(0)}>
         {this.props.buttons[index]}
       </button>
     ));
