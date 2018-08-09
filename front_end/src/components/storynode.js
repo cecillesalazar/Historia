@@ -14,7 +14,6 @@ class StoryNode extends React.Component {
   render() {
       return (
         <div>
-          //<h1>{this.props.storyNode.story}</h1>
           <StoryNodePlot
             story={this.props.storyNode.story}
             speakingOrder={this.props.storyNode.speakingOrder}

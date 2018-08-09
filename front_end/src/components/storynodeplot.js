@@ -5,7 +5,7 @@ export default class StoryNodePlot extends React.Component {
     const storyMap = this.props.story.map((block, index) => (
       <div>
         <p>{this.props.speakingOrder[index]}</p>
-        <p>{block[index]}</p>
+        <p>{block}</p>
       </div>
     ));
     return (
