@@ -43,8 +43,10 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       SERG_TELLS_STORY
     ],
-    story: ['It was a dark and stormy night. The White household hunkered down by the hearth, father and son at chess, with mother knitting placidly by the fire', 'Such strong winds tonight!', 'Said Mr. White, who, making an embarassing blunder, much too late to change, hoped to distract young Herbert', 'Certainly so.', 'Said Herbert, who, despite his father\'s aside, had all his faculties about him, and quickly spotted the opening', 'Check.'],
-    speakingOrder: ['Narrator', 'Mr. White', 'Narrator', 'Herbert', 'Narrator', 'Herbert'],
+    story: ['Such strong winds tonight!', 'Said Mr. White, who, making an embarassing blunder, much too late to change, hoped to distract young Herbert', 'Certainly so.', 'Said Herbert, who, despite his father\'s aside, had all his faculties about him, and quickly spotted the opening', 'Check.'],
+    firstStoryIndex: 'It was a dark and stormy night. The White household hunkered down by the hearth, father and son at chess, with mother knitting placidly by the fire',
+    speakingOrder: ['Mr. White', 'Narrator', 'Herbert', 'Narrator', 'Herbert'],
+    firstSpeakerIndex: 'Narrator',
     button: [
       'Next: The Sergeant Tells His Story'
     ],

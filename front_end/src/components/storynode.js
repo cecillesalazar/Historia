@@ -16,7 +16,9 @@ class StoryNode extends React.Component {
         <div>
           <StoryNodePlot
             story={this.props.storyNode.story}
+            firstStoryIndex={this.props.storyNode.firstStoryIndex}
             speakingOrder={this.props.storyNode.speakingOrder}
+            firstSpeakerIndex={this.props.storyNode.firstSpeakerIndex}
           />
           <StoryNodeOptions
             changeStoryNode={this.changeStoryNode}
