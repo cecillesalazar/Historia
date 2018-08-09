@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { getStoryNode } from './helper.js';
 import { changeNode } from '../actions/actions.js';
+import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
 import Save from './savefeature.js';
 import Load from './loadfeature.js';
@@ -13,7 +14,11 @@ class StoryNode extends React.Component {
   render() {
       return (
         <div>
-          <h1>{this.props.storyNode.story}</h1>
+          //<h1>{this.props.storyNode.story}</h1>
+          <StoryNodePlot
+            story={this.props.storyNode.story}
+            speakingOrder={this.props.storyNode.speakingOrder}
+          />
           <StoryNodeOptions
             changeStoryNode={this.changeStoryNode}
             options={this.props.storyNode.options}
