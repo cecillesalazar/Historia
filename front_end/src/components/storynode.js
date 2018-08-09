@@ -23,6 +23,8 @@ class StoryNode extends React.Component {
             speakerIndex={this.props.speakerIndex}
             changeStoryIndex={this.changeStoryIndex}
             changeSpeakerIndex={this.changeSpeakerIndex}
+            storyNodeStoryArray={this.props.storyNode.story}
+            storyNodeSpeakerArray={this.props.storyNode.speaker}
           />
           <StoryNodeOptions
             changeStoryNode={this.changeStoryNode}
