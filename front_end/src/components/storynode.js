@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import helper from './helper.js';
+import { getStoryNode } from './helper.js';
 import { changeNode } from '../actions/actions.js';
 import StoryNodeOptions from './storynodeoptions.js';
 import Save from './savefeature.js';
@@ -37,7 +37,7 @@ class StoryNode extends React.Component {
 
 function mapStateToProps(state) {
   return {
-    storyNode: helper.getStoryNode(state)
+    storyNode: getStoryNode(state)
    }
 }
 
