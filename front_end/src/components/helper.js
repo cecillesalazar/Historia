@@ -1,8 +1,8 @@
 import { converge } from 'ramda'
-
-const getCurrentStory = (state) => state.currentStory;
+const getGame = (state) => state.game;
+const getCurrentStory = (state) => getGame(state).currentStory;
 const getCurrentStoryGraph = (state) => getCurrentStory(state).storyGraph;
-const getCurrentStoryNodeKey = (state) => state.currentStoryNodeKey;
+const getCurrentStoryNodeKey = (state) => getGame(state).currentStoryNodeKey;
 
 /* MEOW  look at this impl */
 const getStoryNode = converge(
