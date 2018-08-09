@@ -8,6 +8,8 @@ const initialState = {
   currentStoryNodeKey: 'SERG_ARRIVES',
   playButton: false,
   tutorialButton: false,
+  storyIndex: 0,
+  speakerIndex: 0
 };
 
 export const reducer = (state = initialState, action) => {
@@ -31,6 +33,14 @@ export const reducer = (state = initialState, action) => {
   } else if(action.type === 'DISPLAY_TUTORIAL') {
     return Object.assign({}, state, {
       tutorialButton: action.bool
+    })
+  } else if(action.type === 'CHANGE_STORY_INDEX') {
+    return Object.assign({}, state, {
+      storyIndex: action.num
+    })
+  } else if(action.type === 'CHANGE_SPEAKER_INDEX') {
+    return Object.assign({}, state, {
+      speakerIndex: action.num
     })
   } else {
     return state;
