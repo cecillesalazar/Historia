@@ -45,7 +45,9 @@ class StoryNode extends React.Component {
 
 function mapStateToProps(state) {
   return {
-    storyNode: getStoryNode(state)
+    storyNode: getStoryNode(state),
+    storyIndex: state.storyIndex,
+    speakerIndex: state.speakerIndex
    }
 }
 
