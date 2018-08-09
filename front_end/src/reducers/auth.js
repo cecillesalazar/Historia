@@ -1,3 +1,4 @@
+import jwtDecode from 'jwt-decode';
 import {
     SET_AUTH_TOKEN,
     CLEAR_AUTH,
@@ -6,9 +7,11 @@ import {
     AUTH_ERROR
 } from '../actions/auth';
 
+import { loadAuthToken } from '../local-storage.js';
+
 const initialState = {
-    authToken: null, // authToken !== null does not mean it has been validated
-    currentUser: null,
+    authToken: loadAuthToken(), // authToken !== null does not mean it has been validated
+    currentUser: jwtDecode(loadAuthToken()).user,
     loading: false,
     error: null
 };
