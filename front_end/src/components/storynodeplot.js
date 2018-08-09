@@ -10,7 +10,11 @@ export default class StoryNodePlot extends React.Component {
     ));
     return (
       <div>
-        {storyMap}
+        <div>
+          <p>{this.props.firstSpeakerIndex}</p>
+          <p>{this.props.firstStoryIndex}</p>
+          <button type='button'>Next</button>
+        </div>
       </div>
     )
   }
