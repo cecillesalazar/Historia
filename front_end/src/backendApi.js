@@ -54,7 +54,8 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       COVETS_PAW
     ],
-    story: 'PLOT for SERG_TELLS_STORY',
+    story: ['Story1', 'Story2', 'Story3'],
+    speaker: ['Speaker1', 'Speaker2', 'Speaker3'],
     button: [
       'Next: Mr. White Covets the Paw'
     ],
