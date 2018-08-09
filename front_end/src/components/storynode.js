@@ -4,9 +4,9 @@ import { getStoryNode } from './helper.js';
 import { changeNode, changeStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
-import Save from './savefeature.js';
-import Load from './loadfeature.js';
-import Restart from './restartfeature.js';
+import Save from './save.js';
+import Load from './load.js';
+import Restart from './restart.js';
 
 class StoryNode extends React.Component {
   changeStoryNode = (storyNodeKey) => this.props.dispatch(changeNode(storyNodeKey));
