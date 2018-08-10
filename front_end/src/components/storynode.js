@@ -14,6 +14,7 @@ class StoryNode extends React.Component {
   changeSpeakerIndex = (speakerIndex) => this.props.dispatch(changeSpeakerIndex(speakerIndex));
 
   render() {
+    if(this.props.storyIndex === 0 && this.props.speakerIndex === 0) {
       return (
         <div>
           <StoryNodePlot
@@ -45,6 +46,30 @@ class StoryNode extends React.Component {
           />
         </div>
       )
+    } else {
+      return (
+        <div>
+          <StoryNodePlot
+            story={this.props.storyNode.story}
+            speaker={this.props.storyNode.speaker}
+            storyIndex={this.props.storyIndex}
+            speakerIndex={this.props.speakerIndex}
+            changeStoryIndex={this.changeStoryIndex}
+            changeSpeakerIndex={this.changeSpeakerIndex}
+            storyNodeStoryArray={this.props.storyNode.story}
+            storyNodeSpeakerArray={this.props.storyNode.speaker}
+          />
+          <StoryNodeOptions
+            changeStoryNode={this.changeStoryNode}
+            options={this.props.storyNode.options}
+            buttons={this.props.storyNode.button}
+            changeStoryIndex={this.changeStoryIndex}
+            changeSpeakerIndex={this.changeSpeakerIndex}
+          />
+        </div>
+      )
+    }
+
   }
 }
 
