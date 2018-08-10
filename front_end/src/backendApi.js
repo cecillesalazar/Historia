@@ -32,7 +32,8 @@ const WISH_HERBERT_BACK = 'WISH_HERBERT_BACK';
 const THROW_IN_FIRE_AFTER_WISH = 'THROW_IN_FIRE_AFTER_WISH';
 const KNOCK_DOOR = 'KNOCK_DOOR';
 const THIRD_WISH = 'THIRD_WISH';
-const SAD_ENDING = 'SAD_ENDING';
+const SAD_ENDING_ONE = 'SAD_ENDING_ONE';
+const SAD_ENDING_TWO = 'SAD_ENDING_TWO';
 const WISH_HERBERT_DISAPPEAR = 'WISH_HERBERT_DISAPPEAR';
 const LET_WIFE_OPEN_DOOR = 'LET_WIFE_OPEN_DOOR';
 const BAD_ENDING = 'BAD_ENDING';
@@ -132,17 +133,17 @@ const STORY_GRAPH_MONKEY_PAW = {
   [THROW_IN_FIRE_AFTER_WISH]: {
     key: THROW_IN_FIRE_AFTER_WISH,
     options: [
-      SAD_ENDING
+      SAD_ENDING_ONE
     ],
     story: 'Plot for THROW_IN_FIRE_AFTER_WISH',
     button: [
-      'Next: A Lifetime of Regret'
+      'Next: A Lifetime of Regrets'
     ],
   },
-  [SAD_ENDING]: {
-    key: SAD_ENDING,
+  [SAD_ENDING_ONE]: {
+    key: SAD_ENDING_ONE,
     options: [],
-    story: 'Plot for SAD_ENDING',
+    story: 'Plot for SAD_ENDING_ONE',
   },
   [WISH_HERBERT_BACK]: {
     key: WISH_HERBERT_BACK,
@@ -179,12 +180,17 @@ const STORY_GRAPH_MONKEY_PAW = {
   [WISH_HERBERT_DISAPPEAR]: {
     key: WISH_HERBERT_DISAPPEAR,
     options: [
-      SAD_ENDING
+      SAD_ENDING_TWO
     ],
     story: 'Plot for WISH_HERBERT_DISAPPEAR',
     button: [
       'Next: A lifetime of regret'
     ],
+  },
+  [SAD_ENDING_TWO]: {
+    key: SAD_ENDING_TWO,
+    options: [],
+    story: 'Plot for SAD_ENDING_TWO',
   },
   [LET_WIFE_OPEN_DOOR]: {
     key: LET_WIFE_OPEN_DOOR,
