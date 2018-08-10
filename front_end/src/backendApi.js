@@ -281,9 +281,17 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       KNOCK_DOOR
     ],
-    story: 'Plot for WISH_HERBERT_BACK',
+    story: ['The talisman in hand, he listened to his wife and raised the paw to the heavens.',
+            'I wish my son alive again!',
+            'The talisman fell to the floor, and he regarded it fearfully. Then he sank trembling into a chair as his wife, with burning eyes, walked to the window and raised the blind.',
+            'He sat until he was chilled with the cold, glancing occasionally at the figure of his wife peering through the window. The candle end, which had burned below the rim of the china candlestick, was throwing pulsating shadows on the ceiling and walls, until, with a flicker larger than the rest, it expired. Mr. White, with an unspeakable sense of relief at the failure of the talisman, crept back to his bed, and a minute or two afterward, his wife came silently and apathetically beside him.',
+            'Neither spoke, but lay silently listening to the ticking of the clock. A stair creaked, and a squeaky mouse scurried noisily through the wall. The darkness was oppressive, and after lying for some time screwing up his courage, he took the box of matches, and striking one, went downstairs for a candle.',
+            'At the foot of the stairs the match went out, and he paused to strike another, and at the same moment a knock, so quiet and stealthy as to be scarcely audible, sounded on the front door. The matches fell from his hand and spilled in the passage. He stood motionless, his breath suspended until the knock was repeated. Then he turned and fled swiftly back to his room, and closed the door behind him. A third knock sounded through the house.',
+
+           ],
+    speaker: ['', 'Mr. White', '', '', '', ''],
     button: [
-      'Next: A Knock on the Door'
+      'Next: The Knocks Continue'
     ],
   },
   [KNOCK_DOOR]: {
