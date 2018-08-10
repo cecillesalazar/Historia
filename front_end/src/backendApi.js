@@ -44,8 +44,17 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       SERG_TELLS_STORY
     ],
-    story: ['It was a dark and stormy night. The White household hunkered down by the hearth, father and son at chess, with mother knitting placidly by the fire','Such strong winds tonight!', 'Said Mr. White, who, making an embarassing blunder, much too late to change, hoped to distract young Herbert', 'Certainly so.', 'Said Herbert, who, despite his father\'s aside, had all his faculties about him, and quickly spotted the opening', 'Check.'],
-    speaker: ['','Mr. White', '', 'Herbert', '', 'Herbert'],
+    story: ['Without, the night was cold and wet, but in the small parlour of Laburnam Villa, the blinds were drawn and the fire burned brightly. Father and son were at chess, the former, who possessed ideas about the game involving radical changes, putting his king into such sharp and unnecessary perils that it even provoked comment from mother, who knit placidly by the fire. ',
+            'Hark at the wind! ',
+            'Father, who, having seen a fatal mistake after it was too late, was amiably desirous of preventing his son from seeing it and hoped to throw him off the scent by drawing attention to the squall.',
+            'I\'m listening',
+            'Herbert grimly surveys the board and stretches out his hand.',
+            'Check-',
+            'I should hardly think that he\'d come tonight.',
+            '-mate',
+            'Father\'s face contorts as he leans forward to debunk his son’s claim, when suddenly he hears the creaking of the rusty gate, signaling that their visitor had indeed made it after all. Rising hastily from his seat, he runs to the door to greet their guest.'
+           ],
+    speaker: ['', 'Mr. White', '', 'Herbert', '', 'Herbert', 'Mr. White', 'Herbert', ''],
     button: [
       'Next: The Sergeant Tells His Story'
     ],
