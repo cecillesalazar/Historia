@@ -299,7 +299,18 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       THIRD_WISH
     ],
-    story: 'Plot for KNOCK_DOOR',
+    story: ['What\'s that?',
+            'A rat...a rat. It passed me on the stairs.',
+            'Mrs. White sat up in the bed and listened. Then unmistakably, a knock resounded through the house.',
+            'It’s Herbert! It’s Herbert!',
+            'She ran to the door, but her husband was before her, and catching her by the arm, held her tightly.',
+            'What are you going to do?',
+            'It\'s my boy, it\'s Herbert! I forgot it was two miles away...the cemetery! What are you holding me for? Let go. I must open the door.',
+            'For God’s sake, don\'t let it in!',
+            'You\'re afraid of you own son. Let me go. I\'m coming, Herbert. Mother\'s coming.',
+
+           ],
+    speaker: ['Mrs. White', 'Mr. White', '', 'Mrs. White', '', 'Mr. White', 'Mrs. White', 'Mr. White', 'Mrs. White'],
     button: [
       'Next: One last wish'
     ],
