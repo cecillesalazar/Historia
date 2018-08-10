@@ -22,7 +22,6 @@ export const loadGame = () => {
 const SERG_ARRIVES = 'SERG_ARRIVES';
 const SERG_TELLS_STORY = 'SERG_TELLS_STORY';
 const COVETS_PAW = 'COVETS_PAW';
-const FIRST_WISH = 'FIRST_WISH';
 const WISH_FOR_200_LBS = 'WISH_FOR_200_LBS';
 const THROW_IN_FIRE_BEFORE_WISH = 'THROW_IN_FIRE_BEFORE_WISH';
 const HAPPY_ENDING = 'HAPPY_ENDING';
@@ -109,7 +108,8 @@ const STORY_GRAPH_MONKEY_PAW = {
   [COVETS_PAW]: {
     key: COVETS_PAW,
     options: [
-      FIRST_WISH
+      WISH_FOR_200_LBS,
+      THROW_IN_FIRE_BEFORE_WISH
     ],
     story: ['Mr. White dropped it back in his pocket, and placing chairs, motioned his friend to the table. In the business of supper the talisman was partly forgotten, and afterward the three sat listening in an enthralled fashion to a second installment of the soldier\'s adventures in India. As the night deepened and the hour turned late, Morris bade the family goodbye to catch the last train.',
             'If the tale about the monkey\'s paw is not more truthful than those he has been telling us, we sha\'nt make much out of it.',
@@ -124,19 +124,28 @@ const STORY_GRAPH_MONKEY_PAW = {
            ],
     speaker: ['', 'Herbert', 'Mr. White', 'Herbert', 'Mr. White', 'Herbert', '', 'Mr. White', 'Herbert', ''],
     button: [
-      'Next: To wish or not to wish?'
-    ],
-  },
-  [FIRST_WISH]: {
-    key: FIRST_WISH,
-    options: [
-      WISH_FOR_200_LBS,
-      THROW_IN_FIRE_BEFORE_WISH
-    ],
-    story: 'Plot for FIRST_WISH',
-    button: [
       'Wish for 200 pounds',
       'Throw the paw into the fire'
+    ],
+  },
+  [WISH_FOR_200_LBS]: {
+    key: WISH_FOR_200_LBS,
+    options: [
+      HERBERT_DIES
+    ],
+    story: ['I wish for two hundred pounds.',
+            'A fine crash from the piano greeted the words, interrupted by a shuddering cry from the old man. His wife and son ran toward him.',
+            'It moved. As I wished, it twisted in my hand like a snake!',
+            'Well, I don\'t see the money...and I bet I never shall.',
+            'It must have been your fancy, father.',
+            'Never mind though. There\'s no harm done, but it gave me a shock all the same.',
+            'They sat down by the fire again. Outside, the wind was higher than ever, and the old man started nervously at the sound of a door banging upstairs. A silence unusual and depressing settled upon all three, which lasted until the old couple rose to retire for the night.',
+            'I expect you\'ll find the cash tied up in a big bag in the middle of your bed...and something horrible squatting up on top of the wardrobe watching you as you pocket your ill-gotten gains.',
+            'Mr. White sat alone in the darkness, gazing at the dying fire, and seeing faces in it. The last face was so horrible and so simian that he gazed at it in amazement. It got so vivid that, with a little uneasy laugh, he felt on the table for a glass containing a little water to throw over it. His hand grasped the monkey\'s paw, and with a little shiver he wiped his hand on his coat and went up to bed.'
+           ],
+    speaker: ['Mr. White', '', 'Mr. White', 'Herbert', 'Mrs. White', 'Mr. White', '', 'Herbert', ''],
+    button: [
+      'The wish is granted'
     ],
   },
   [THROW_IN_FIRE_BEFORE_WISH]: {
@@ -153,16 +162,6 @@ const STORY_GRAPH_MONKEY_PAW = {
     key: HAPPY_ENDING,
     options: [],
     story: 'Plot for HAPPY_ENDING',
-  },
-  [WISH_FOR_200_LBS]: {
-    key: WISH_FOR_200_LBS,
-    options: [
-      HERBERT_DIES
-    ],
-    story: 'Plot for WISH_FOR_200_LBS',
-    button: [
-      'Next: The wish is granted'
-    ],
   },
   [HERBERT_DIES]: {
     key: HERBERT_DIES,
