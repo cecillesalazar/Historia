@@ -336,9 +336,12 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       SAD_ENDING_TWO
     ],
-    story: 'Plot for WISH_HERBERT_DISAPPEAR',
+    story: ['...he raised the talisman in his hand and cried to the heavens to hear his plea.',
+            'I wish my son would disappear!'
+           ],
+    speaker: ['', 'Mr. White'],
     button: [
-      'Next: A lifetime of regret'
+      'Next: Disappointment'
     ],
   },
   [SAD_ENDING_TWO]: {
