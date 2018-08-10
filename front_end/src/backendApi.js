@@ -368,7 +368,13 @@ const STORY_GRAPH_MONKEY_PAW = {
   [BAD_ENDING]: {
     key: BAD_ENDING,
     options: [],
-    story: 'Plot for BAD_ENDING',
+    story: ['The old man flew down the stairs. But nothing in life could\'ve prepared him for that sight. His blood ran ice cold.',
+            'The door was ajar, his wife a heap on the ground, dead with fright.',
+            'The thing in between the door frame looked him straight in the eye and stared down to his soul.',
+            'I’m home, father.',
+            'The end.'
+           ],
+    speaker: ['', '', '', 'Herbert', '']
   }
 }
 
