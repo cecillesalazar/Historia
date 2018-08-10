@@ -111,7 +111,18 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       FIRST_WISH
     ],
-    story: 'Plot for COVETS_PAW',
+    story: ['Mr. White dropped it back in his pocket, and placing chairs, motioned his friend to the table. In the business of supper the talisman was partly forgotten, and afterward the three sat listening in an enthralled fashion to a second installment of the soldier\'s adventures in India. As the night deepened and the hour turned late, Morris bade the family goodbye to catch the last train.',
+            'If the tale about the monkey\'s paw is not more truthful than those he has been telling us, we sha\'nt make much out of it.',
+            'Hmm...',
+            'Did you give him anything for it father?',
+            'A trifle. He didn\'t want it, but I made him take it. And he pressed me again to throw it away.',
+            'I wonder of his aversion. Why, we can be rich, famous, and happy. Wish to be an emperor, father, to begin with, then you can\'t be henpecked.',
+            'He darted round the table, pursued by the maligned Mrs. White armed with an antimacassar. Mr. White took the paw from his pocket and eyed it dubiously.',
+            'I don\'t know what to wish for, and that\'s a fact. It seems to me I\'ve got all I want.',
+            'If you only cleared the house, you\'d be quite happy, wouldn\'t you? Well, wish for two hundred pounds, then, that\'ll just do it.',
+            'Mr. White, smiling shamefacedly at his own credulity, held up the talisman, as his son, with a solemn face, somewhat marred by a wink at his mother, sat down at the piano and struck a few impressive chords.'
+           ],
+    speaker: ['', 'Herbert', 'Mr. White', 'Herbert', 'Mr. White', 'Herbert', '', 'Mr. White', 'Herbert', ''],
     button: [
       'Next: To wish or not to wish?'
     ],
