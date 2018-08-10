@@ -153,7 +153,14 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       HAPPY_ENDING
     ],
-    story: 'Plot for THROW_IN_FIRE_BEFORE_WISH',
+    story: ['His friend\'s words echoed in his ear.',
+            'If you keep it, don\'t blame me for what happens. Pitch it on the fire again like a sensible man.',
+            'A sensible man...that indeed was who he was. Curiosity over the talisman and the inevitable greed that it aroused may have led him astray for a time, but not this time. He began to lower his arm, and swift as the wind, he threw the paw into the fire.',
+            'Father!',
+            'Dear!',
+            'His wife and son simply stared, their jaws agape, their eyes riveted to the fire as it did its duty. For a moment, they seemed to see a face of a withered old man wearing a wry smile shaped by the smoke and the flames, but it quickly faded, leading them to believe that it was nothing but mere imagination.'
+           ],
+    speaker: ['', '', '', 'Herbert', 'Mrs. White', ''],
     button: [
       'Next: Calm and Prosperity'
     ],
