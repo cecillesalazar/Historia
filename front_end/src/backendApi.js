@@ -347,7 +347,10 @@ const STORY_GRAPH_MONKEY_PAW = {
   [SAD_ENDING_TWO]: {
     key: SAD_ENDING_TWO,
     options: [],
-    story: 'Plot for SAD_ENDING_TWO',
+    story: ['The knocking ceased suddenly, although the echoes of it were still in the house. He heard the chair drawn back, and the door opened. A cold wind rushed up the staircase, and a long loud wail of disappointment and misery from his wife gave him courage to run down to her side, and then to the gate beyond. The street lamp flickering opposite shone on a quiet and deserted road.',
+            'The end.'
+           ],
+    speaker: ['', '']
   },
   [LET_WIFE_OPEN_DOOR]: {
     key: LET_WIFE_OPEN_DOOR,
