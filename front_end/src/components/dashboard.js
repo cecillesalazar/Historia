@@ -1,5 +1,5 @@
 import React from 'react';
-import Gameplay from './gameplay.js';
+import StoryNode from './storynode.js';
 import Tutorial from './tutorial.js';
 import {connect} from 'react-redux';
 import requiresLogin from './requires-login';
@@ -28,7 +28,7 @@ export class Dashboard extends React.Component {
             <div className="dashboard-username">
               Logged in as: {this.props.username}
             </div>
-            <Gameplay />
+            <StoryNode />
           </div>
         )
       } else if(this.props.tutorialButton) {
