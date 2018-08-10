@@ -277,7 +277,13 @@ const STORY_GRAPH_MONKEY_PAW = {
   [SAD_ENDING_ONE]: {
     key: SAD_ENDING_ONE,
     options: [],
-    story: 'Plot for SAD_ENDING_ONE',
+    story: ['The old couple lived on. Never quite the same. And although it seems that they\'d been spared the worst misfortunes of mankind, the remainder of their lives held little meaning for them. There was nothing more to look forward to, and everything ill to look back on.',
+            'The decades rolled by. And as he neared his hundredth year, the old man looked to the sky and remembered that fateful night...when he came into the possession of a magical paw and defied the rule of the heavens...all for a small sum of two-hundred pounds.',
+            'He went inside, laid down on his bed and closed his eyes...',
+            '...and never opened them again.',
+            'The end.'
+           ],
+    speaker: ['', '', '', '', '']
   },
   [WISH_HERBERT_BACK]: {
     key: WISH_HERBERT_BACK,
