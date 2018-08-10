@@ -168,7 +168,15 @@ const STORY_GRAPH_MONKEY_PAW = {
   [HAPPY_ENDING]: {
     key: HAPPY_ENDING,
     options: [],
-    story: 'Plot for HAPPY_ENDING',
+    story: ['Fortune seemed to smile on the White household as the seasons changed. They didn\'t live as kings and queens, yet seemed to avoid the tragedies in which man is so frequently plagued. Never had they run out of sustenance when times were meager. And in the event of the great flood, which reduced the town\'s homes to less than a quarter, their cozy cottage remained oddly intact, even as all their neighbors experienced the opposite fate. It was as if mother nature had chosen to respect the tiny family, for reasons unknown to them.',
+            'Herbert married. A beautiful young lass with sharp wits about her, and a penchant for business. They opened their own trade, and Herbert went from being the common laborer to a respected merchant. Children followed soon afterwards, to the delight of their old mother and father, who seemed to have aged amicably.',
+            'The family lived fruitfully, the children begetting children as the decades rolled by. As he neared his hundredth year, the old man looked at the sky and briefly remembered that strange night when he came into possession of a magical paw and was once tempted to defy fate with a wish.',
+            'He closed his eyes. And looked deeply into himself. And realized.',
+            'That he did not feel the twinge of regret for what could\'ve been.',
+            'Everything was as it should be. And it is.',
+            'The end.'
+           ],
+    speaker: ['', '', '', '', '', '', '']
   },
   [HERBERT_DIES]: {
     key: HERBERT_DIES,
