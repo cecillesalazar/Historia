@@ -266,7 +266,10 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       SAD_ENDING_ONE
     ],
-    story: 'Plot for THROW_IN_FIRE_AFTER_WISH',
+    story: ['Talisman in hand, the old man raised it up to the sky…yet he could not utter the words. It would not escape his lips. He lowered his arm, and swiftly, before she could change his mind, he threw the paw into the fire.',
+            'His wife shrieked, and quickly dove to retrieve it, but he held her back, her uncontrollable sobs piercing the still air as she watched the mangled paw submit to the flame, along with their son\'s one and only hope.'
+           ],
+    speaker: ['', ''],
     button: [
       'Next: A Lifetime of Regrets'
     ],
