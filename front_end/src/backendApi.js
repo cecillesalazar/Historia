@@ -357,7 +357,10 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [
       BAD_ENDING
     ],
-    story: 'Plot for LET_WIFE_OPEN_DOOR',
+    story: ['...he raised the talisman in his hand...but for a second he hesitated. Perhaps his wife could be right. Why wouldn\'t they want their boy? And isn\'t it just as likely that he\'d be restored in the condition in which they desired?',
+            'His thoughts were interrupted by a guttural shriek.'
+           ],
+    speaker: ['', ''],
     button: [
       'Next: The price of defiance'
     ],
