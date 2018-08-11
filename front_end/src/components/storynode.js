@@ -4,6 +4,7 @@ import { getStoryNode } from './helper.js';
 import { changeNode, changeStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
+import ReturnDashboard from './returndashboard.js';
 import Save from './save.js';
 import Load from './load.js';
 import Restart from './restart.js';
@@ -73,6 +74,10 @@ class StoryNode extends React.Component {
             changeSpeakerIndex={this.changeSpeakerIndex}
             storyNodeStoryArray={this.props.storyNode.story}
             storyNodeSpeakerArray={this.props.storyNode.speaker}
+          />
+          <ReturnDashboard
+            playButton={this.props.playButton}
+            displayDashboard={this.props.displayDashboard}
           />
         </div>
       )

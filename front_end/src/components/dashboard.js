@@ -11,10 +11,16 @@ export class Dashboard extends React.Component {
     super(props)
     this.displayGameplay = this.displayGameplay.bind(this);
     this.displayTutorial = this.displayTutorial.bind(this);
+    this.displayDashboard = this.displayDashboard.bind(this);
+
   }
 
   displayGameplay() {
     !this.props.playButton ? this.props.dispatch(displayGameplay(true)) : ''
+  }
+
+  displayDashboard() {
+    this.props.playButton ? this.props.dispatch(displayGameplay(false)) : ''
   }
 
   displayTutorial() {
@@ -28,7 +34,10 @@ export class Dashboard extends React.Component {
             <div className="dashboard-username">
               Logged in as: {this.props.username}
             </div>
-            <StoryNode />
+            <StoryNode
+            playButton={this.props.playButton}
+            displayDashboard={this.displayDashboard}
+            />
           </div>
         )
       } else if(this.props.tutorialButton) {
