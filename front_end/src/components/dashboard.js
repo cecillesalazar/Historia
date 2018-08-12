@@ -3,8 +3,9 @@ import StoryNode from './storynode.js';
 import Tutorial from './tutorial.js';
 import {connect} from 'react-redux';
 import requiresLogin from './requires-login';
-import { displayGameplay, displayTutorial } from '../actions/actions.js';
+import { displayGameplay, displayTutorial, changeStory } from '../actions/actions.js';
 import { getPlayButton, getTutorialButton } from './helper.js';
+import { getRandomStory } from '../backendApi.js';
 
 export class Dashboard extends React.Component {
   constructor(props) {
@@ -16,7 +17,10 @@ export class Dashboard extends React.Component {
   }
 
   displayGameplay() {
-    !this.props.playButton ? this.props.dispatch(displayGameplay(true)) : ''
+    getRandomStory().then(async (story) => {
+      await this.props.dispatch(changeStory(story))
+      this.props.dispatch(displayGameplay(true))
+    })
   }
 
   displayDashboard() {

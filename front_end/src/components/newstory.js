@@ -7,7 +7,7 @@ export default class NewStory extends React.Component {
     if(this.props.options.length === 0) {
       return (
        <div>
-         <button type="button" onClick={() => getRandomStory().then(this.props.dispatch(changeStory()))}>Play New Story</button>
+         <button type="button" onClick={() => getRandomStory().then((story) => this.props.dispatch(changeStory(story)))}>Play New Story</button>
        </div>
       )
     } else {

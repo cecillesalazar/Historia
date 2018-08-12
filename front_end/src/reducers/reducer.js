@@ -1,18 +1,6 @@
 import helper from '../components/helper.js';
-import { saveFileSuccess } from '../actions/actions.js';
 
-import { STORIES, SERG_ARRIVES } from '../backendApi.js' // Temp stop gap get rid of me!!
-
-const initialState = {
-  currentStory: STORIES[0],
-  currentStoryNodeKey: 'SERG_ARRIVES',
-  playButton: false,
-  tutorialButton: false,
-  storyIndex: 0,
-  speakerIndex: 0
-};
-
-export const reducer = (state = initialState, action) => {
+export const reducer = (state = {}, action) => {
   if(action.type === 'CHANGE_NODE') {
     return Object.assign({}, state, {
       currentStoryNodeKey: action.currentNode
@@ -23,8 +11,10 @@ export const reducer = (state = initialState, action) => {
     })
   } else if(action.type === 'CHANGE_STORY') {
     return Object.assign({}, state, {
-      startNode: action.story.startNode,
-      storyGraph: action.story
+      currentStory: action.story,
+      currentStoryNodeKey: action.story.startNode,
+      storyIndex: 0,
+      speakerIndex: 0,
     })
   } else if(action.type === 'DISPLAY_GAMEPLAY') {
     return Object.assign({}, state, {
