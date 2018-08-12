@@ -14,3 +14,8 @@ export const getStoryNode = converge(
 
 export const getStoryIndex = (state) => getGame(state).storyIndex;
 export const getSpeakerIndex = (state) => getGame(state).speakerIndex;
+
+export const getIsStoryNodeEnd = converge(
+  (storyIndex, speakerIndex, storyNode) => storyIndex === storyNode.story.length - 1 && speakerIndex === storyNode.speaker.length - 1,
+  [getStoryIndex, getSpeakerIndex, getStoryNode]
+)
