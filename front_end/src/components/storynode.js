@@ -5,6 +5,7 @@ import { changeNode, changeStoryIndex, changeSpeakerIndex } from '../actions/act
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
 import ReturnDashboard from './returndashboard.js';
+import NewStory from './newstory.js';
 import Save from './save.js';
 import Load from './load.js';
 import Restart from './restart.js';
@@ -59,6 +60,9 @@ class StoryNode extends React.Component {
             buttons={this.props.storyNode.button}
             changeStoryIndex={this.changeStoryIndex}
             changeSpeakerIndex={this.changeSpeakerIndex}
+          />
+          <NewStory
+            options={this.props.storyNode.options}
           />
         </div>
       )

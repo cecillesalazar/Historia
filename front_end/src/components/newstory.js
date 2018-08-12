@@ -2,7 +2,7 @@ import React from 'react';
 import { getRandomStory } from '../backendApi.js';
 import { changeStory } from '../actions/actions.js';
 
-export default class newStory extends React.Component {
+export default class NewStory extends React.Component {
   render() {
     if(this.props.options.length === 0) {
       return (
