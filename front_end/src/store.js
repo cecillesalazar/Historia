@@ -9,18 +9,18 @@ import {setAuthToken, refreshAuthToken} from './actions/auth';
 const persistedState = loadState();
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
-    combineReducers({
-      game: reducer,
-      form: formReducer,
-      auth: authReducer
-    }),
-    persistedState,
-    composeEnhancers(
-    applyMiddleware(thunk)
-  ));
+  combineReducers({
+    game: reducer,
+    form: formReducer,
+    auth: authReducer
+  }),
+  persistedState,
+  composeEnhancers(
+  applyMiddleware(thunk)
+));
 
-  store.subscribe(() => {
-    saveState(store.getState());
-  });
+store.subscribe(() => {
+  saveState(store.getState());
+});
 
 export default store;
