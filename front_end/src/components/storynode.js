@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getStoryNode, getStoryIndex, getSpeakerIndex, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle } from './helper.js';
+import { getStoryNode, getStoryIndex, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle } from './helper.js';
 import { changeNode, changeStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
@@ -13,18 +13,17 @@ import Restart from './restart.js';
 class StoryNode extends React.Component {
   changeStoryNode = (storyNodeKey) => this.props.dispatch(changeNode(storyNodeKey));
   changeStoryIndex = (storyIndex) => this.props.dispatch(changeStoryIndex(storyIndex));
-  changeSpeakerIndex = (speakerIndex) => this.props.dispatch(changeSpeakerIndex(speakerIndex));
 
   render() {
     return (
       <div>
         <StoryNodePlot
-          speaker={this.props.storyNode.speaker[this.props.speakerIndex]}
-          story={this.props.storyNode.story[this.props.storyIndex]}
+          speaker={this.props.storyNode.story[this.props.storyIndex].speaker}
+          story={this.props.storyNode.story[this.props.storyIndex].text}
         >
           {!this.props.isStoryNodeEnd && <button
             type="button"
-            onClick={() => this.changeSpeakerIndex(this.props.speakerIndex + 1) && this.changeStoryIndex(this.props.storyIndex + 1)}
+            onClick={() => this.changeStoryIndex(this.props.storyIndex + 1)}
           >Next</button>}
         </StoryNodePlot>
 
@@ -43,7 +42,6 @@ class StoryNode extends React.Component {
           options={this.props.storyNode.options}
           buttons={this.props.storyNode.button}
           changeStoryIndex={this.changeStoryIndex}
-          changeSpeakerIndex={this.changeSpeakerIndex}
         />}
         {this.props.isStoryNodeEnd && <NewStory
           options={this.props.storyNode.options}
@@ -62,7 +60,6 @@ function mapStateToProps(state) {
   return {
     storyNode: getStoryNode(state),
     storyIndex: getStoryIndex(state),
-    speakerIndex: getSpeakerIndex(state),
     isStoryNodeEnd: getIsStoryNodeEnd(state),
     isStoryNodeStart: getIsStoryNodeStart(state),
     isStoryNodeMiddle: getIsStoryNodeMiddle(state)

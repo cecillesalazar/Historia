@@ -10,12 +10,6 @@ export const changeStoryIndex = (num) => ({
   num
 });
 
-const CHANGE_SPEAKER_INDEX = 'CHANGE_SPEAKER_INDEX';
-export const changeSpeakerIndex = (num) => ({
-  type: CHANGE_SPEAKER_INDEX,
-  num
-});
-
 const SAVE_FILE_SUCCESS = 'SAVE_FILE_SUCCESS';
 export const saveFileSuccess = storyNode => ({
     type: SAVE_FILE_SUCCESS,
