@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getStoryNode } from './helper.js';
+import { getStoryNode, getStoryIndex, getSpeakerIndex } from './helper.js';
 import { changeNode, changeStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
@@ -94,8 +94,8 @@ class StoryNode extends React.Component {
 function mapStateToProps(state) {
   return {
     storyNode: getStoryNode(state),
-    storyIndex: state.game.storyIndex,
-    speakerIndex: state.game.speakerIndex
+    storyIndex: getStoryIndex(state),
+    speakerIndex: getSpeakerIndex(state)
    }
 }
 

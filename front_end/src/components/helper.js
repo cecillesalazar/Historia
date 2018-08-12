@@ -11,3 +11,6 @@ export const getStoryNode = converge(
   (storyGraph, key) => storyGraph[key],
   [getCurrentStoryGraph, getCurrentStoryNodeKey],
 )
+
+export const getStoryIndex = (state) => getGame(state).storyIndex;
+export const getSpeakerIndex = (state) => getGame(state).speakerIndex;
