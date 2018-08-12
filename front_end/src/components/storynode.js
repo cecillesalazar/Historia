@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getStoryNode, getStoryIndex, getSpeakerIndex, getIsStoryNodeEnd, getIsStoryNodeStart } from './helper.js';
+import { getStoryNode, getStoryIndex, getSpeakerIndex, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle } from './helper.js';
 import { changeNode, changeStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
@@ -16,78 +16,45 @@ class StoryNode extends React.Component {
   changeSpeakerIndex = (speakerIndex) => this.props.dispatch(changeSpeakerIndex(speakerIndex));
 
   render() {
-    if(this.props.isStoryNodeStart) {
-      return (
-        <div>
-          <StoryNodePlot
-            story={this.props.storyNode.story}
-            speaker={this.props.storyNode.speaker}
-            storyIndex={this.props.storyIndex}
-            speakerIndex={this.props.speakerIndex}
-            changeStoryIndex={this.changeStoryIndex}
-            changeSpeakerIndex={this.changeSpeakerIndex}
-            storyNodeStoryArray={this.props.storyNode.story}
-            storyNodeSpeakerArray={this.props.storyNode.speaker}
-          />
-          <Save
-            currentStoryNodeKey={this.props.storyNode.key}
-            dispatch={this.props.dispatch}
-          />
-          <Load
-            changeStoryNode={this.changeStoryNode}
-          />
-          <Restart
-            changeStoryNode={this.changeStoryNode}
-          />
-        </div>
-      )
-    } else if (this.props.isStoryNodeEnd) {
-      return (
-        <div>
-          <StoryNodePlot
-            story={this.props.storyNode.story}
-            speaker={this.props.storyNode.speaker}
-            storyIndex={this.props.storyIndex}
-            speakerIndex={this.props.speakerIndex}
-            changeStoryIndex={this.changeStoryIndex}
-            changeSpeakerIndex={this.changeSpeakerIndex}
-            storyNodeStoryArray={this.props.storyNode.story}
-            storyNodeSpeakerArray={this.props.storyNode.speaker}
-          />
-          <StoryNodeOptions
-            changeStoryNode={this.changeStoryNode}
-            options={this.props.storyNode.options}
-            buttons={this.props.storyNode.button}
-            changeStoryIndex={this.changeStoryIndex}
-            changeSpeakerIndex={this.changeSpeakerIndex}
-          />
-          <NewStory
-            options={this.props.storyNode.options}
-            dispatch={this.props.dispatch}
-          />
-        </div>
-      )
-    } else {
-      return (
-        <div>
-          <StoryNodePlot
-            story={this.props.storyNode.story}
-            speaker={this.props.storyNode.speaker}
-            storyIndex={this.props.storyIndex}
-            speakerIndex={this.props.speakerIndex}
-            changeStoryIndex={this.changeStoryIndex}
-            changeSpeakerIndex={this.changeSpeakerIndex}
-            storyNodeStoryArray={this.props.storyNode.story}
-            storyNodeSpeakerArray={this.props.storyNode.speaker}
-          />
-          <ReturnDashboard
-            playButton={this.props.playButton}
-            displayDashboard={this.props.displayDashboard}
-          />
-        </div>
-      )
-    }
-
+    return (
+      <div>
+        <StoryNodePlot
+          story={this.props.storyNode.story}
+          speaker={this.props.storyNode.speaker}
+          storyIndex={this.props.storyIndex}
+          speakerIndex={this.props.speakerIndex}
+          changeStoryIndex={this.changeStoryIndex}
+          changeSpeakerIndex={this.changeSpeakerIndex}
+          storyNodeStoryArray={this.props.storyNode.story}
+          storyNodeSpeakerArray={this.props.storyNode.speaker}
+        />
+        {this.props.isStoryNodeStart && <Save
+          currentStoryNodeKey={this.props.storyNode.key}
+          dispatch={this.props.dispatch}
+        /> }
+        {this.props.isStoryNodeStart && <Load
+          changeStoryNode={this.changeStoryNode}
+        />}
+        {this.props.isStoryNodeStart && <Restart
+          changeStoryNode={this.changeStoryNode}
+        />}
+        {this.props.isStoryNodeEnd && <StoryNodeOptions
+          changeStoryNode={this.changeStoryNode}
+          options={this.props.storyNode.options}
+          buttons={this.props.storyNode.button}
+          changeStoryIndex={this.changeStoryIndex}
+          changeSpeakerIndex={this.changeSpeakerIndex}
+        />}
+        {this.props.isStoryNodeEnd && <NewStory
+          options={this.props.storyNode.options}
+          dispatch={this.props.dispatch}
+        />}
+        {this.props.isStoryNodeMiddle && <ReturnDashboard
+          playButton={this.props.playButton}
+          displayDashboard={this.props.displayDashboard}
+        />}
+      </div>
+    )
   }
 }
 
@@ -97,7 +64,8 @@ function mapStateToProps(state) {
     storyIndex: getStoryIndex(state),
     speakerIndex: getSpeakerIndex(state),
     isStoryNodeEnd: getIsStoryNodeEnd(state),
-    isStoryNodeStart: getIsStoryNodeStart(state)
+    isStoryNodeStart: getIsStoryNodeStart(state),
+    isStoryNodeMiddle: getIsStoryNodeMiddle(state)
    }
 }
 

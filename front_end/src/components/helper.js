@@ -24,3 +24,8 @@ export const getIsStoryNodeStart = converge(
   (storyIndex, speakerIndex) => storyIndex === 0 && speakerIndex === 0,
   [getStoryIndex, getSpeakerIndex]
 )
+
+export const getIsStoryNodeMiddle = converge(
+  (isStoryNodeStart, isStoryNodeEnd) => !isStoryNodeStart && !isStoryNodeStart,
+  [getIsStoryNodeStart, getIsStoryNodeEnd]
+)
