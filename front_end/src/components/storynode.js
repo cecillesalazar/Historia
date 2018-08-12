@@ -19,15 +19,15 @@ class StoryNode extends React.Component {
     return (
       <div>
         <StoryNodePlot
-          story={this.props.storyNode.story}
-          speaker={this.props.storyNode.speaker}
-          storyIndex={this.props.storyIndex}
-          speakerIndex={this.props.speakerIndex}
-          changeStoryIndex={this.changeStoryIndex}
-          changeSpeakerIndex={this.changeSpeakerIndex}
-          storyNodeStoryArray={this.props.storyNode.story}
-          storyNodeSpeakerArray={this.props.storyNode.speaker}
-        />
+          speaker={this.props.storyNode.speaker[this.props.speakerIndex]}
+          story={this.props.storyNode.story[this.props.storyIndex]}
+        >
+          {!this.props.isStoryNodeEnd && <button
+            type="button"
+            onClick={() => this.changeSpeakerIndex(this.props.speakerIndex + 1) && this.changeStoryIndex(this.props.storyIndex + 1)}
+          >Next</button>}
+        </StoryNodePlot>
+
         {this.props.isStoryNodeStart && <Save
           currentStoryNodeKey={this.props.storyNode.key}
           dispatch={this.props.dispatch}
