@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getStoryNode, getStoryIndex, getSpeakerIndex, getIsStoryNodeEnd } from './helper.js';
+import { getStoryNode, getStoryIndex, getSpeakerIndex, getIsStoryNodeEnd, getIsStoryNodeStart } from './helper.js';
 import { changeNode, changeStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
@@ -16,7 +16,7 @@ class StoryNode extends React.Component {
   changeSpeakerIndex = (speakerIndex) => this.props.dispatch(changeSpeakerIndex(speakerIndex));
 
   render() {
-    if(this.props.storyIndex === 0 && this.props.speakerIndex === 0) {
+    if(this.props.isStoryNodeStart) {
       return (
         <div>
           <StoryNodePlot
@@ -96,7 +96,8 @@ function mapStateToProps(state) {
     storyNode: getStoryNode(state),
     storyIndex: getStoryIndex(state),
     speakerIndex: getSpeakerIndex(state),
-    isStoryNodeEnd: getIsStoryNodeEnd(state)
+    isStoryNodeEnd: getIsStoryNodeEnd(state),
+    isStoryNodeStart: getIsStoryNodeStart(state)
    }
 }
 

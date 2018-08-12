@@ -19,3 +19,8 @@ export const getIsStoryNodeEnd = converge(
   (storyIndex, speakerIndex, storyNode) => storyIndex === storyNode.story.length - 1 && speakerIndex === storyNode.speaker.length - 1,
   [getStoryIndex, getSpeakerIndex, getStoryNode]
 )
+
+export const getIsStoryNodeStart = converge(
+  (storyIndex, speakerIndex) => storyIndex === 0 && speakerIndex === 0,
+  [getStoryIndex, getSpeakerIndex]
+)
