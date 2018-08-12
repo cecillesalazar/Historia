@@ -63,6 +63,7 @@ class StoryNode extends React.Component {
           />
           <NewStory
             options={this.props.storyNode.options}
+            dispatch={this.props.dispatch}
           />
         </div>
       )

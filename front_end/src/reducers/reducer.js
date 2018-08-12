@@ -1,7 +1,7 @@
 import helper from '../components/helper.js';
 import { saveFileSuccess } from '../actions/actions.js';
 
-import { STORIES } from '../backendApi.js' // Temp stop gap get rid of me!!
+import { STORIES, SERG_ARRIVES } from '../backendApi.js' // Temp stop gap get rid of me!!
 
 const initialState = {
   currentStory: STORIES[0],

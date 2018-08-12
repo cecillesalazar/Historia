@@ -19,7 +19,7 @@ export const loadGame = () => {
   .then(json => json.saveFile);
 }
 
-const SERG_ARRIVES = 'SERG_ARRIVES';
+export const SERG_ARRIVES = 'SERG_ARRIVES';
 const SERG_TELLS_STORY = 'SERG_TELLS_STORY';
 const COVETS_PAW = 'COVETS_PAW';
 const WISH_FOR_200_LBS = 'WISH_FOR_200_LBS';
