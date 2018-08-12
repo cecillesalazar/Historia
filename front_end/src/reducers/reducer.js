@@ -23,8 +23,8 @@ export const reducer = (state = initialState, action) => {
     })
   } else if(action.type === 'CHANGE_STORY') {
     return Object.assign({}, state, {
-      currentStoryGraph: action.story,
-      currentStoryNodeKey: action.story.startNode
+      startNode: action.story.startNode,
+      storyGraph: action.story
     })
   } else if(action.type === 'DISPLAY_GAMEPLAY') {
     return Object.assign({}, state, {
