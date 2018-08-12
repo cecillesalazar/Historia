@@ -22,6 +22,9 @@ export const clearAuthToken = () => {
 
 export const loadState = () => {
   try {
+    if(localStorage.getItem('disableLoadStateFromLocalStore')) {
+      return undefined;
+    }
     const serializedState = localStorage.getItem('state');
     if(serializedState === null) {
       return undefined;
