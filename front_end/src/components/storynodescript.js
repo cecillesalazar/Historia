@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class StoryNodePlot extends React.Component {
+export default class StoryNodeScript extends React.Component {
   render() {
     return (
       <div>
