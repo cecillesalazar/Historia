@@ -12,11 +12,13 @@ export const getStoryNode = converge(
   [getCurrentStoryGraph, getCurrentStoryNodeKey],
 )
 
+export const getScripts = (state) => getStoryNode(state).scripts;
+
 export const getStoryIndex = (state) => getGame(state).storyIndex;
 
 export const getIsStoryNodeEnd = converge(
-  (storyIndex, storyNode) => storyIndex === storyNode.story.length - 1,
-  [getStoryIndex, getStoryNode]
+  (storyIndex, stories) => storyIndex === stories - 1,
+  [getStoryIndex, getScripts]
 )
 
 export const getIsStoryNodeStart = converge(
@@ -29,9 +31,7 @@ export const getIsStoryNodeMiddle = converge(
   [getIsStoryNodeStart, getIsStoryNodeEnd]
 )
 
-export const getStoryNodeStories = (state) => getStoryNode(state).story;
-
-export const getStoryNodeStory = converge(
+export const getScript = converge(
   (stories, storyIndex) => stories[storyIndex],
-  [getStoryNodeStories, getStoryIndex]
+  [getScripts, getStoryIndex]
 )
