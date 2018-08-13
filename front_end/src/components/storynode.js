@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getStoryNode, getStoryIndex, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle } from './helper.js';
+import { getStoryNode, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle, getStoryNodeStory } from './helper.js';
 import { changeNode, incrementStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
@@ -18,8 +18,8 @@ class StoryNode extends React.Component {
     return (
       <div>
         <StoryNodePlot
-          speaker={this.props.storyNode.story[this.props.storyIndex].speaker}
-          story={this.props.storyNode.story[this.props.storyIndex].text}
+          speaker={this.props.storyNodeStory.speaker}
+          story={this.props.storyNodeStory.text}
         >
           {!this.props.isStoryNodeEnd && <button
             type="button"
@@ -59,10 +59,10 @@ class StoryNode extends React.Component {
 function mapStateToProps(state) {
   return {
     storyNode: getStoryNode(state),
-    storyIndex: getStoryIndex(state),
     isStoryNodeEnd: getIsStoryNodeEnd(state),
     isStoryNodeStart: getIsStoryNodeStart(state),
-    isStoryNodeMiddle: getIsStoryNodeMiddle(state)
+    isStoryNodeMiddle: getIsStoryNodeMiddle(state),
+    storyNodeStory: getStoryNodeStory(state)
    }
 }
 

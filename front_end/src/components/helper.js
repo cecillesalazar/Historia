@@ -28,3 +28,10 @@ export const getIsStoryNodeMiddle = converge(
   (isStoryNodeStart, isStoryNodeEnd) => !isStoryNodeStart && !isStoryNodeStart,
   [getIsStoryNodeStart, getIsStoryNodeEnd]
 )
+
+export const getStoryNodeStories = (state) => getStoryNode(state).story;
+
+export const getStoryNodeStory = converge(
+  (stories, storyIndex) => stories[storyIndex],
+  [getStoryNodeStories, getStoryIndex]
+)
