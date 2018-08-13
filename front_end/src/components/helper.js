@@ -6,6 +6,7 @@ const getCurrentStory = (state) => getGame(state).currentStory;
 const getCurrentStoryGraph = (state) => getCurrentStory(state).storyGraph;
 const getCurrentStoryNodeKey = (state) => getGame(state).currentStoryNodeKey;
 
+const getSpeakers = (state) => getCurrentStory(state).speakers;
 /* MEOW  look at this impl */
 export const getStoryNode = converge(
   (storyGraph, key) => storyGraph[key],
@@ -34,4 +35,9 @@ export const getIsStoryNodeMiddle = converge(
 export const getScript = converge(
   (stories, storyIndex) => stories[storyIndex],
   [getScripts, getStoryIndex]
+)
+
+export const getSpeaker = converge(
+  (script, speakers) => speakers[script.speakerKey].name,
+  [getScript, getSpeakers]
 )
