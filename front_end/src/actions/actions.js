@@ -10,6 +10,11 @@ export const changeStoryIndex = (num) => ({
   num
 });
 
+const INCREMENT_STORY_INDEX = 'INCREMENT_STORY_INDEX';
+export const incrementStoryIndex = () => ({
+  type: INCREMENT_STORY_INDEX
+});
+
 const SAVE_FILE_SUCCESS = 'SAVE_FILE_SUCCESS';
 export const saveFileSuccess = storyNode => ({
     type: SAVE_FILE_SUCCESS,

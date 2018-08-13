@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { getStoryNode, getStoryIndex, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle } from './helper.js';
-import { changeNode, changeStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
+import { changeNode, incrementStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodePlot from './storynodeplot.js';
 import StoryNodeOptions from './storynodeoptions.js';
 import ReturnDashboard from './returndashboard.js';
@@ -12,7 +12,7 @@ import Restart from './restart.js';
 
 class StoryNode extends React.Component {
   changeStoryNode = (storyNodeKey) => this.props.dispatch(changeNode(storyNodeKey));
-  changeStoryIndex = (storyIndex) => this.props.dispatch(changeStoryIndex(storyIndex));
+  incrementStoryIndex = () => this.props.dispatch(incrementStoryIndex());
 
   render() {
     return (
@@ -23,7 +23,7 @@ class StoryNode extends React.Component {
         >
           {!this.props.isStoryNodeEnd && <button
             type="button"
-            onClick={() => this.changeStoryIndex(this.props.storyIndex + 1)}
+            onClick={this.incrementStoryIndex}
           >Next</button>}
         </StoryNodePlot>
 

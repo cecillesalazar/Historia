@@ -28,6 +28,10 @@ export const reducer = (state = {}, action) => {
     return Object.assign({}, state, {
       storyIndex: action.num
     })
+  } else if(action.type === 'INCREMENT_STORY_INDEX') {
+    return Object.assign({}, state, {
+      storyIndex: state.storyIndex + 1,
+    });
   } else if(action.type === 'CHANGE_SPEAKER_INDEX') {
     return Object.assign({}, state, {
       speakerIndex: action.num
