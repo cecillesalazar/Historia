@@ -18,7 +18,7 @@ export const getScripts = (state) => getStoryNode(state).scripts;
 export const getStoryIndex = (state) => getGame(state).storyIndex;
 
 export const getIsStoryNodeEnd = converge(
-  (storyIndex, stories) => storyIndex === stories - 1,
+  (storyIndex, stories) => storyIndex === stories.length - 1,
   [getStoryIndex, getScripts]
 )
 
