@@ -7,7 +7,7 @@
   width: 10%;
   min-width: 120px;
   min-height: 48px;
-  display: inline-block;
+  display: block;
   border: 2px solid white;
   box-shadow:
   0 3px 4px #fff, /*bottom external highlight*/
@@ -18,5 +18,4 @@
   padding-top: .5%;
   position: fixed;
   bottom: 1%;
-  left: 5%;
 }
