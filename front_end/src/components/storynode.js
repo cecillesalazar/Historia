@@ -48,7 +48,6 @@ class StoryNode extends React.Component {
           changeStoryNode={this.changeStoryNode}
           options={this.props.storyNode.options}
           buttons={this.props.storyNode.button}
-          changeStoryIndex={this.changeStoryIndex}
         />}
         {this.props.isStoryNodeEnd && <NewStory
           options={this.props.storyNode.options}
