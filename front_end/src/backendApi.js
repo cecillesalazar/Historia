@@ -1,4 +1,4 @@
-WELL_DRESSED_GENTLEMAN// A temp variable to mikic using our database;
+// A temp variable to mikic using our database;
 // Ultimately we will need to make ajax requests to our server from this file.
 export const saveGame = saveFile => {
   return fetch('/5b6867ee107abe0f460f2eff', {
