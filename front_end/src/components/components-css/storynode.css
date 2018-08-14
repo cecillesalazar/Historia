@@ -22,4 +22,6 @@
   inset 0 5px 5px rgba(255,255,255,0.8); /*top internal highlight*/
   border-radius: 8px;
   padding-top: .5%;
+  position: fixed;
+  bottom: 1%;
 }
