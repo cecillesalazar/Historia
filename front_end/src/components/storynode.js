@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getStoryNode, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle, getScript, getSpeaker, classNames } from './helper.js';
-import { changeNode, incrementStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
+import { getStoryNode, getStoryIndex, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle, getScript, getSpeaker, classNames } from './helper.js';
+import { changeNode, incrementStoryIndex, changeSpeakerIndex, resetStoryIndex } from '../actions/actions.js';
 import StoryNodeScript from './storynodescript.js';
 import StoryNodeOptions from './storynodeoptions.js';
 import ReturnDashboard from './returndashboard.js';
@@ -14,6 +14,7 @@ import './components-css/storynode.css';
 class StoryNode extends React.Component {
   changeStoryNode = (storyNodeKey) => this.props.dispatch(changeNode(storyNodeKey));
   incrementStoryIndex = () => this.props.dispatch(incrementStoryIndex());
+  resetStoryIndex = () => this.props.dispatch(resetStoryIndex());
 
   render() {
 
@@ -46,6 +47,7 @@ class StoryNode extends React.Component {
         />}
         {this.props.isStoryNodeEnd && <StoryNodeOptions
           changeStoryNode={this.changeStoryNode}
+          resetStoryIndex={this.resetStoryIndex}
           options={this.props.storyNode.options}
           buttons={this.props.storyNode.button}
         />}
@@ -65,6 +67,7 @@ class StoryNode extends React.Component {
 function mapStateToProps(state) {
   return {
     storyNode: getStoryNode(state),
+    storyIndex: getStoryIndex(state),
     isStoryNodeEnd: getIsStoryNodeEnd(state),
     isStoryNodeStart: getIsStoryNodeStart(state),
     isStoryNodeMiddle: getIsStoryNodeMiddle(state),

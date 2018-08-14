@@ -23,9 +23,9 @@ export const reducer = (state = {}, action) => {
     return Object.assign({}, state, {
       tutorialButton: action.bool
     })
-  } else if(action.type === 'CHANGE_STORY_INDEX') {
+  } else if(action.type === 'RESET_STORY_INDEX') {
     return Object.assign({}, state, {
-      storyIndex: action.num
+      storyIndex: 0
     })
   } else if(action.type === 'INCREMENT_STORY_INDEX') {
     return Object.assign({}, state, {

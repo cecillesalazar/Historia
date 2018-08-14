@@ -4,10 +4,9 @@ export const changeNode = (currentNode) => ({
   currentNode,
 });
 
-const CHANGE_STORY_INDEX = 'CHANGE_STORY_INDEX';
-export const changeStoryIndex = (num) => ({
-  type: CHANGE_STORY_INDEX,
-  num
+const RESET_STORY_INDEX = 'RESET_STORY_INDEX';
+export const resetStoryIndex = () => ({
+  type: RESET_STORY_INDEX
 });
 
 const INCREMENT_STORY_INDEX = 'INCREMENT_STORY_INDEX';
