@@ -1,4 +1,4 @@
-.dashboard-button {
+.story-change-button {
   color: white;
   background-color: green;
   font-family: 'Neucha', cursive;
@@ -18,5 +18,5 @@
   padding-top: .5%;
   position: fixed;
   bottom: 1%;
-  left: 16%;
+  left: 5%;
 }

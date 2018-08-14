@@ -1,4 +1,5 @@
 import React from 'react';
+import './components-css/storynodeoptions.css';
 
 export default class StoryNodeOptions extends React.Component {
   render() {
