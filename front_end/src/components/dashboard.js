@@ -6,6 +6,7 @@ import requiresLogin from './requires-login';
 import { displayGameplay, displayTutorial, changeStory } from '../actions/actions.js';
 import { getPlayButton, getTutorialButton } from './helper.js';
 import { getRandomStory } from '../backendApi.js';
+import './components-css/dashboard.css';
 
 export class Dashboard extends React.Component {
   constructor(props) {
@@ -36,7 +37,6 @@ export class Dashboard extends React.Component {
         return (
           <div className="dashboard">
             <div className="dashboard-username">
-              Logged in as: {this.props.username}
             </div>
             <StoryNode
             playButton={this.props.playButton}
@@ -53,11 +53,9 @@ export class Dashboard extends React.Component {
       } else {
         return (
           <div className="dashboard">
-            <div className="dashboard-username">
-              Logged in as: {this.props.username}
-            </div>
-            <button type="button" onClick={() => this.displayGameplay()}>Play</button>
-            <button type="button" onClick={() => this.displayTutorial()}>How to Play</button>
+            <h1 className="logo">Historia</h1>
+            <button type="button" className="play-button" onClick={() => this.displayGameplay()}>Play</button>
+            <button type="button" className="tutorial-button" onClick={() => this.displayTutorial()}>How to Play</button>
           </div>
         )
       }

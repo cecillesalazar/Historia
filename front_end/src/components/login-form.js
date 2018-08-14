@@ -20,6 +20,8 @@ export class LoginForm extends React.Component {
             );
         }
         return (
+          <div>
+            <h1 className="logo">Historia</h1>
             <form
                 className="login-form"
                 onSubmit={this.props.handleSubmit(values =>
@@ -46,6 +48,7 @@ export class LoginForm extends React.Component {
                     Log in
                 </button>
             </form>
+          </div>
         );
     }
 }
