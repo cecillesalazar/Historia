@@ -590,7 +590,7 @@ const STORY_GRAPH_MONKEY_PAW = {
     ],
     scripts: [
       {
-        texte: 'In the huge new cemetery, some two miles distant, the old people buried their dead, and came back to a house steeped in shadow and silence. It was all over so quickly that at first they could hardly realize it, and remained in a state of expectation as though of something else to happen —something else which was to lighten this load, too heavy for old hearts to bear.',
+        text: 'In the huge new cemetery, some two miles distant, the old people buried their dead, and came back to a house steeped in shadow and silence. It was all over so quickly that at first they could hardly realize it, and remained in a state of expectation as though of something else to happen —something else which was to lighten this load, too heavy for old hearts to bear.',
         speakerKey: NARRATOR,
       },
       {
