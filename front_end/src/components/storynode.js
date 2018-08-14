@@ -9,6 +9,7 @@ import NewStory from './newstory.js';
 import Save from './save.js';
 import Load from './load.js';
 import Restart from './restart.js';
+import './components-css/storynode.css';
 
 class StoryNode extends React.Component {
   changeStoryNode = (storyNodeKey) => this.props.dispatch(changeNode(storyNodeKey));
@@ -27,6 +28,7 @@ class StoryNode extends React.Component {
           story={this.props.script.text}
         >
           {!this.props.isStoryNodeEnd && <button
+            className="next-button"
             type="button"
             onClick={this.incrementStoryIndex}
           >Next</button>}
