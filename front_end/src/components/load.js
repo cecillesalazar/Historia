@@ -1,11 +1,12 @@
 import React from 'react';
 import { loadGame } from '../backendApi.js';
+import './components-css/load.css'
 
 export default class Load extends React.Component {
   render() {
     return (
       <div>
-        <button type="button" onClick={() => loadGame().then(this.props.changeStoryNode)}>Load</button>
+        <button className="load-button" type="button" onClick={() => loadGame().then(this.props.changeStoryNode)}>Load</button>
       </div>
     )
   }
