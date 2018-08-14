@@ -28,7 +28,7 @@ export const getIsStoryNodeStart = converge(
 )
 
 export const getIsStoryNodeMiddle = converge(
-  (isStoryNodeStart, isStoryNodeEnd) => !isStoryNodeStart && !isStoryNodeStart,
+  (isStoryNodeStart, isStoryNodeEnd) => !isStoryNodeStart && !isStoryNodeEnd,
   [getIsStoryNodeStart, getIsStoryNodeEnd]
 )
 
@@ -41,3 +41,11 @@ export const getSpeaker = converge(
   (script, speakers) => speakers[script.speakerKey].name,
   [getScript, getSpeakers]
 )
+
+
+//Takes an object with keys as potential class names
+//and return a formatted className String with keys whos
+//values are trueish.
+export const classNames = (obj) =>  Object.keys(obj)
+  .filter(key => obj[key])
+  .join(' ');

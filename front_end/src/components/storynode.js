@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getStoryNode, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle, getScript, getSpeaker } from './helper.js';
+import { getStoryNode, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle, getScript, getSpeaker, classNames } from './helper.js';
 import { changeNode, incrementStoryIndex, changeSpeakerIndex } from '../actions/actions.js';
 import StoryNodeScript from './storynodescript.js';
 import StoryNodeOptions from './storynodeoptions.js';
@@ -15,8 +15,13 @@ class StoryNode extends React.Component {
   incrementStoryIndex = () => this.props.dispatch(incrementStoryIndex());
 
   render() {
+
     return (
-      <div>
+      <div className={classNames({
+        'story-node-start': this.props.isStoryNodeStart,
+        'story-node-end': this.props.isStoryNodeEnd,
+        'story-node-middle': this.props.isStoryNodeMiddle
+      })}>
         <StoryNodeScript
           speaker={this.props.speaker}
           story={this.props.script.text}
