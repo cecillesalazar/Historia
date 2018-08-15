@@ -1,6 +1,7 @@
 import React from 'react';
 import './components-css/storynodescript.css';
 import Typing from 'react-typing-animation';
+import sha1 from 'sha1';
 
 export default class StoryNodeScript extends React.Component {
   render() {
@@ -10,7 +11,7 @@ export default class StoryNodeScript extends React.Component {
           <p>{this.props.speaker}</p>
         </div>
         <div className="dialogue-box">
-          <Typing>
+          <Typing key={sha1(this.props.story)} speed={1}>
             <p className="dialogue">{this.props.story}</p>
           </Typing>
             {this.props.children}
