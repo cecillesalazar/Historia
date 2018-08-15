@@ -54,8 +54,10 @@ export class Dashboard extends React.Component {
         return (
           <div className="dashboard">
             <h1 className="logo">Historia</h1>
-            <button type="button" className="play-button" onClick={() => this.displayGameplay()}>Play</button>
-            <button type="button" className="tutorial-button" onClick={() => this.displayTutorial()}>How to Play</button>
+            <div className="buttons-container">
+              <button type="button" className="play-button" onClick={() => this.displayGameplay()}>Play</button>
+              <button type="button" className="tutorial-button" onClick={() => this.displayTutorial()}>How to Play</button>
+            </div>
           </div>
         )
       }
