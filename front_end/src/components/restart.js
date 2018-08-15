@@ -5,9 +5,7 @@ import './components-css/restart.css'
 export default class Restart extends React.Component {
   render() {
     return (
-      <div>
         <button className="restart-button" type="button" onClick={() => this.props.changeStoryNode('SERG_ARRIVES')}>Restart</button>
-      </div>
     )
   }
 }

@@ -41,3 +41,8 @@
   position: fixed;
   bottom: 1%;
 }
+
+.story-node-start-buttons {
+  position: fixed;
+  width: 400px;
+}

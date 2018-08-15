@@ -15,3 +15,9 @@
   bottom: 32%;
   display: inline-block;
 }
+
+.dialogue {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+}
