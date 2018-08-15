@@ -204,7 +204,7 @@
 }
 
 @media only screen and (max-width: 1150px) {
-  .next-button {
+  .dashboard-button {
     width: 80px;
     display: block;
     position: fixed;
@@ -212,7 +212,7 @@
     left: 5%;
   }
 
-  .dashboard-button {
+  .next-button {
     width: 80px;
     position: fixed;
     left: 5%;
