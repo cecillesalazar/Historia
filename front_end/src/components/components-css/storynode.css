@@ -42,6 +42,136 @@
   bottom: 1%;
 }
 
+@media only screen and (max-width: 1200px) {
+
+    .save-button {
+      position: fixed;
+      left: 50%;
+      min-width: 48px;
+      min-height: 48px;
+      width: 120px;
+      margin-left: 5px;
+      margin-right: 5px;
+      left: 57%
+    }
+
+    .load-button {
+      min-width: 48px;
+      min-height: 48px;
+      width: 120px;
+      margin-left: 5px;
+      margin-right: 5px;
+      left: 72%;
+    }
+
+    .restart-button {
+      min-width: 48px;
+      min-height: 48px;
+      width: 120px;
+      margin-left: 5px;
+      margin-right: 5px;
+      left: 87%;
+      right: 5%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+  .save-button {
+    position: fixed;
+    left: 50%;
+    min-width: 48px;
+    min-height: 48px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 57%
+  }
+
+  .load-button {
+    min-width: 48px;
+    min-height: 48px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 72%;
+  }
+
+  .restart-button {
+    min-width: 48px;
+    min-height: 48px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 87%;
+    right: 5%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .save-button {
+    position: fixed;
+    left: 50%;
+    min-width: 48px;
+    min-height: 48px;
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 57%
+  }
+
+  .load-button {
+    min-width: 48px;
+    min-height: 48px;
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 72%;
+  }
+
+  .restart-button {
+    min-width: 48px;
+    min-height: 48px;
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 87%;
+    right: 5%;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .save-button {
+    position: fixed;
+    left: 50%;
+    min-width: 48px;
+    min-height: 48px;
+    width: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 57%
+  }
+
+  .load-button {
+    min-width: 48px;
+    min-height: 48px;
+    width: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 72%;
+  }
+
+  .restart-button {
+    min-width: 48px;
+    min-height: 48px;
+    width: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 87%;
+    right: 5%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
 
     .save-button {
