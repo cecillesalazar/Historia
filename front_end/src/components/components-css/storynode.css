@@ -203,13 +203,12 @@
     }
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 414px) {
   .dashboard-button {
     width: 80px;
     display: block;
     position: fixed;
-    bottom: 8%;
-    left: 5%;
+    left: 35%;
   }
 
   .next-button {
