@@ -11,10 +11,10 @@ export default class StoryNodeScript extends React.Component {
           <p>{this.props.speaker}</p>
         </div>
         <div className="dialogue-box">
-          <Typing key={sha1(this.props.story)} speed={1}>
-            <p className="dialogue">{this.props.story}</p>
+          <Typing key={sha1(this.props.story)} speed={30}>
+            <p className="dialogue">{this.props.story}<Typing.Cursor /></p>
           </Typing>
-            {this.props.children}
+          {this.props.children}
         </div>
       </div>
     )
