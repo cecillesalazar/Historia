@@ -267,11 +267,11 @@ const STORY_GRAPH_MONKEY_PAW = {
         speakerKey: MRS_WHITE,
       },
       {
-        text: 'Mr. White drew the talisman from pocket, and then all three burst into laughter as the sergeant major, with a look of alarm on his face, caught him by the arm.',
+        text: 'Mr. White drew the talisman from his pocket, and then all three burst into laughter as the sergeant major, with a look of alarm on his face, caught him by the arm.',
         speakerKey: NARRATOR,
       },
       {
-        text: 'If you must wish...wish for something sensible',
+        text: 'If you must wish...wish for something sensible.',
         speakerKey: MORRIS,
       },
     ],
