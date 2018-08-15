@@ -4,7 +4,7 @@
   font-family: 'Neucha', cursive;
   font-size: 80%;
   margin-bottom: 1%;
-  width: 10%;
+  width: 133px;
   min-width: 120px;
   min-height: 48px;
   display: inline-block;
@@ -201,4 +201,20 @@
       margin-right: 10px;
       left: 80%;
     }
+}
+
+@media only screen and (max-width: 1150px) {
+  .next-button {
+    width: 80px;
+    display: block;
+    position: fixed;
+    bottom: 8%;
+    left: 5%;
+  }
+
+  .dashboard-button {
+    width: 80px;
+    position: fixed;
+    left: 5%;
+  }
 }
