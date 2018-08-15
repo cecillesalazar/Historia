@@ -20,7 +20,7 @@ export class LoginForm extends React.Component {
             );
         }
         return (
-          <div>
+          <div className="container">
             <h1 className="logo">Historia</h1>
             <form
                 className="login-form"
