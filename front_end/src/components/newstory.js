@@ -2,6 +2,7 @@ import React from 'react';
 import { getRandomStory } from '../backendApi.js';
 import { changeStory } from '../actions/actions.js';
 import './components-css/newstory.css';
+import PropTypes from 'prop-types';
 
 export default class NewStory extends React.Component {
   render() {
@@ -16,3 +17,7 @@ export default class NewStory extends React.Component {
     }
   }
 }
+
+NewStory.propTypes = {
+  options: PropTypes.array.isRequired
+};

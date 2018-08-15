@@ -1,10 +1,10 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
-import App from '../app';
+import Load from '../load';
 import './setupTests';
 
-describe('<App />', () => {
+describe('<Load />', () => {
   it('Should render without crashing', () => {
-    const wrapper = shallow(<App />);
+    const wrapper = shallow(<Load />);
   })
 })
