@@ -26,7 +26,7 @@
   font-family: 'Neucha', cursive;
   font-size: 80%;
   margin-bottom: 1%;
-  width: 10%;
+  width: 133px;
   min-width: 120px;
   min-height: 48px;
   display: inline-block;
@@ -215,5 +215,12 @@
     width: 80px;
     position: fixed;
     left: 5%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .story-change-button {
+    width: 48px;
+    margin: 2%;
   }
 }
