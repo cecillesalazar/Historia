@@ -42,7 +42,33 @@
   bottom: 1%;
 }
 
-.story-node-start-buttons {
-  position: fixed;
-  width: 400px;
+@media only screen and (max-width: 600px) {
+
+    .save-button {
+      position: fixed;
+      left: 50%;
+      min-width: 48px;
+      min-height: 48px;
+      width: 60px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .load-button {
+      min-width: 48px;
+      min-height: 48px;
+      width: 60px;
+      margin-left: 10px;
+      margin-right: 10px;
+      left: 65%;
+    }
+
+    .restart-button {
+      min-width: 48px;
+      min-height: 48px;
+      width: 60px;
+      margin-left: 10px;
+      margin-right: 10px;
+      left: 80%;
+    }
 }

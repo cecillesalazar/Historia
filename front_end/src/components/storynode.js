@@ -34,7 +34,6 @@ class StoryNode extends React.Component {
             onClick={this.incrementStoryIndex}
           >Next</button>}
         </StoryNodeScript>
-        {<div className="story-node-start-buttons">
         {this.props.isStoryNodeStart && <Save
           currentStoryNodeKey={this.props.storyNode.key}
           dispatch={this.props.dispatch}
@@ -45,7 +44,6 @@ class StoryNode extends React.Component {
         {this.props.isStoryNodeStart && <Restart
           changeStoryNode={this.changeStoryNode}
         />}
-        </div>}
         {this.props.isStoryNodeEnd && <StoryNodeOptions
           changeStoryNode={this.changeStoryNode}
           resetStoryIndex={this.resetStoryIndex}
