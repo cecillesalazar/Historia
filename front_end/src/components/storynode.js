@@ -26,7 +26,7 @@ class StoryNode extends React.Component {
       })}>
         <StoryNodeScript
           speaker={this.props.speaker}
-          story={this.props.script.text}
+          script={this.props.script.text}
         >
           {!this.props.isStoryNodeEnd && <button
             className="next-button"
