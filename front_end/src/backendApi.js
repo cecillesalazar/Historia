@@ -1147,7 +1147,7 @@ const STORY_GRAPH_MONKEY_PAW = {
         backgroundUrl: 'https://s25.postimg.cc/ytup9gfrz/Design_1.png',
       },
       {
-        text: 'She ran to the door, but her husband was before her, and catching her by the arm, held her tightly.',
+        text: 'She ran down the stairs, but her husband was before her, and catching her by the arm, held her tightly.',
         speakerKey: NARRATOR,
         speakerImage: '',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
@@ -1232,12 +1232,15 @@ const STORY_GRAPH_MONKEY_PAW = {
     scripts: [
       {
         text: '...he raised the talisman in his hand and cried to the heavens to hear his plea.',
-
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'I wish my son would disappear!',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
     button: [
