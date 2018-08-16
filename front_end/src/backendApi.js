@@ -1281,10 +1281,14 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: '...he raised the talisman in his hand...but for a second he hesitated. Perhaps his wife could be right. Why wouldn\'t they want their boy? And isn\'t it just as likely that he\'d be restored in the condition in which they desired?',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png'
       },
       {
         text: 'His thoughts were interrupted by a guttural shriek.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png'
       },
     ],
     button: [
