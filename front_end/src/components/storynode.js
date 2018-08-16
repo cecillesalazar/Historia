@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getStoryNode, getStoryIndex, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle, getScript, getSpeaker, getUrl, classNames } from './helper.js';
+import { getStoryNode, getStoryIndex, getIsStoryNodeEnd, getIsStoryNodeStart, getIsStoryNodeMiddle, getScript, getSpeaker, getUrl, getSpeakerImage, classNames } from './helper.js';
 import { changeNode, incrementStoryIndex, changeSpeakerIndex, resetStoryIndex } from '../actions/actions.js';
 import StoryNodeScript from './storynodescript.js';
 import StoryNodeOptions from './storynodeoptions.js';
@@ -28,6 +28,7 @@ class StoryNode extends React.Component {
           speaker={this.props.speaker}
           script={this.props.script.text}
           url={this.props.url}
+          speakerImage={this.props.speakerImage}
         >
           {!this.props.isStoryNodeEnd && <button
             className="next-button"
@@ -73,6 +74,7 @@ function mapStateToProps(state) {
     isStoryNodeMiddle: getIsStoryNodeMiddle(state),
     script: getScript(state),
     url: getUrl(state),
+    speakerImage: getSpeakerImage(state),
     speaker: getSpeaker(state)
    }
 }

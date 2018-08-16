@@ -39,6 +39,8 @@ export const getScript = converge(
 
 export const getUrl = (state) => getScript(state).backgroundUrl
 
+export const getSpeakerImage = (state) => getScript(state).speakerImage
+
 export const getSpeaker = converge(
   (script, speakers) => speakers[script.speakerKey].name,
   [getScript, getSpeakers]
