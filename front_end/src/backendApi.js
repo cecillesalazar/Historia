@@ -451,38 +451,56 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I wish for two hundred pounds.',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'A fine crash from the piano greeted the words, interrupted by a shuddering cry from the old man. His wife and son ran toward him.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'It moved. As I wished, it twisted in my hand like a snake!',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/v1fs7f7n3/imageedit_2_4118282660.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Well, I don\'t see the money...and I bet I never shall.',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/hkitobztr/imageedit_1_2777644127.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'It must have been your fancy, father.',
         speakerKey: MRS_WHITE,
+        speakerImage: 'https://s25.postimg.cc/6c01n6eq7/imageedit_1_6327568721.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Never mind though. There\'s no harm done, but it gave me a shock all the same.',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/uneg7ysq7/imageedit_1_6644374430.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'They sat down by the fire again. Outside, the wind was higher than ever, and the old man started nervously at the sound of a door banging upstairs. A silence unusual and depressing settled upon all three, which lasted until the old couple rose to retire for the night.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'I expect you\'ll find the cash tied up in a big bag in the middle of your bed...and something horrible squatting up on top of the wardrobe watching you as you pocket your ill-gotten gains.',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/gi8n5v9bj/imageedit_1_7795666038.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Mr. White sat alone in the darkness, gazing at the dying fire, and seeing faces in it. The last face was so horrible and so simian that he gazed at it in amazement. It got so vivid that, with a little uneasy laugh, he felt on the table for a glass containing a little water to throw over it. His hand grasped the monkey\'s paw, and with a little shiver he wiped his hand on his coat and went up to bed.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
     button: [
