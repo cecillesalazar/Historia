@@ -7,6 +7,9 @@ export default class StoryNodeScript extends React.Component {
   render() {
     return (
       <div>
+        <div className="background-image-container">
+          <img className="background-image" src={this.props.url} />
+        </div>
         <div className="speaker-name-container">
           <p className="speaker-name">{this.props.speaker}</p>
         </div>

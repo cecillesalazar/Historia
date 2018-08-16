@@ -86,6 +86,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Without, the night was cold and wet, but in the small parlour of Laburnam Villa, the blinds were drawn and the fire burned brightly. Father and son were at chess, the former, who possessed ideas about the game involving radical changes, putting his king into such sharp and unnecessary perils that it even provoked comment from mother, who knit placidly by the fire.',
         speakerKey: NARRATOR,
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Hark at the wind!',

@@ -37,11 +37,12 @@ export const getScript = converge(
   [getScripts, getStoryIndex]
 )
 
+export const getUrl = (state) => getScript(state).backgroundUrl
+
 export const getSpeaker = converge(
   (script, speakers) => speakers[script.speakerKey].name,
   [getScript, getSpeakers]
 )
-
 
 //Takes an object with keys as potential class names
 //and return a formatted className String with keys whos

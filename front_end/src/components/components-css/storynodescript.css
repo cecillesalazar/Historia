@@ -31,6 +31,18 @@
   margin-top: 2%;
 }
 
+.background-image-container {
+  width: 50%;
+  height: 50%;;
+  top: 10%;
+  left: 25%;
+  position: fixed;
+}
+
+.background-image {
+
+}
+
 
 @media only screen and (max-width: 800px) {
   .dialogue {
