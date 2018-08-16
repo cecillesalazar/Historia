@@ -451,7 +451,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I wish for two hundred pounds.',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -559,46 +559,46 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [],
     scripts: [
       {
-        text: 'Fortune seemed to smile on the White household as the seasons changed. They didn\'t live as kings and queens, yet seemed to avoid the tragedies in which man is so frequently plagued. Never had they run out of sustenance when times were meager. And in the event of the great flood, which reduced the town\'s homes to less than a quarter, their cozy cottage remained oddly intact, even as all their neighbors experienced the opposite fate. It was as if mother nature had chosen to respect the tiny family, for reasons unknown to them.',
+        text: 'Fortune seemed to smile on the White household as the seasons changed. They didn\'t live as kings and queens, yet seemed to avoid the tragedies in which man is so frequently plagued. Never had they run out of sustenance when times were meager. And in the event of the great flood, which reduced the town\'s homes to less than a quarter, their cozy cottage remained oddly intact, even as all their neighbors experienced the opposite fate. It seemed as if even nature had chosen to respect the tiny family.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/tza72fbkv/Design_31.png',
+        backgroundUrl: 'https://s25.postimg.cc/v2ubepolr/Design_33.png',
       },
       {
         text: 'Herbert married. A beautiful young lass with sharp wits about her, and a penchant for business. They opened their own trade, and Herbert went from being the common laborer to a respected merchant. Children followed soon afterwards, to the delight of their old mother and father, who seemed to have aged amicably.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/tza72fbkv/Design_31.png',
+        backgroundUrl: 'https://s25.postimg.cc/v2ubepolr/Design_33.png',
       },
       {
         text: 'The family lived fruitfully, the children begetting children as the decades rolled by. As he neared his hundredth year, the old man looked at the sky and briefly remembered that strange night when he came into possession of a magical paw and was once tempted to defy fate with a wish.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/tza72fbkv/Design_31.png',
+        backgroundUrl: 'https://s25.postimg.cc/v2ubepolr/Design_33.png',
       },
       {
         text: 'He closed his eyes. And looked deeply into himself. And realized.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/tza72fbkv/Design_31.png',
+        backgroundUrl: 'https://s25.postimg.cc/v2ubepolr/Design_33.png',
       },
       {
         text: 'That he did not feel the twinge of regret for what could\'ve been.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/tza72fbkv/Design_31.png',
+        backgroundUrl: 'https://s25.postimg.cc/v2ubepolr/Design_33.png',
       },
       {
         text: 'Everything was as it should be. And it is.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/tza72fbkv/Design_31.png',
+        backgroundUrl: 'https://s25.postimg.cc/v2ubepolr/Design_33.png',
       },
       {
         text: 'The end.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/tza72fbkv/Design_31.png',
+        backgroundUrl: 'https://s25.postimg.cc/v2ubepolr/Design_33.png',
       },
     ],
   },
@@ -707,7 +707,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'There, there, mother. Sit down and don\'t jump to conclusions. You\'ve not brought bad news, I\'m sure sir.',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -749,7 +749,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Caught...in the machinery...',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -761,7 +761,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'He was the only one left to us. The only surviving child!',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -791,7 +791,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'How much?',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -887,7 +887,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Think of what?',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/whvw32uq7/Design_32.png',
       },
       {
@@ -899,7 +899,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Was one not enough!?',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/whvw32uq7/Design_32.png',
       },
       {
@@ -911,7 +911,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Good God, you are mad!',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/whvw32uq7/Design_32.png',
       },
       {
@@ -935,7 +935,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'A coincidence.',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/whvw32uq7/Design_32.png',
       },
       {
@@ -947,7 +947,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'He has been dead ten days, and besides he--I would not tell you else, but--I could only recognize him by his clothing. If he was too terrible for you to see then, how now?',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/whvw32uq7/Design_32.png',
       },
       {
@@ -983,7 +983,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'It is foolish and wicked.',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -1072,7 +1072,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I wish my son alive again!',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -1131,7 +1131,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'A rat...a rat. It passed me on the stairs.',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/whvw32uq7/Design_32.png',
       },
       {
@@ -1239,7 +1239,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I wish my son would disappear!',
         speakerKey: MR_WHITE,
-        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
