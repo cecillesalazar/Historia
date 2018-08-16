@@ -1255,19 +1255,19 @@ const STORY_GRAPH_MONKEY_PAW = {
         text: 'The knocking ceased suddenly, although the echoes of it were still in the house. He heard the chair drawn back, and the door opened.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png'
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'A cold wind rushed up the staircase, and a long loud wail of disappointment and misery from his wife gave him courage to run down to her side, and then to the gate beyond. The street lamp flickering opposite shone on a quiet and deserted road.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/i7d500k5r/Design_7.png'
+        backgroundUrl: 'https://s25.postimg.cc/i7d500k5r/Design_7.png',
       },
       {
         text: 'The end.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/i7d500k5r/Design_7.png'
+        backgroundUrl: 'https://s25.postimg.cc/i7d500k5r/Design_7.png',
       },
     ],
     speakerKey: [NARRATOR]
@@ -1282,13 +1282,13 @@ const STORY_GRAPH_MONKEY_PAW = {
         text: '...he raised the talisman in his hand...but for a second he hesitated. Perhaps his wife could be right. Why wouldn\'t they want their boy? And isn\'t it just as likely that he\'d be restored in the condition in which they desired?',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png'
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'His thoughts were interrupted by a guttural shriek.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png'
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
     button: [
@@ -1300,24 +1300,34 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [],
     scripts: [
       {
-        text: 'The old man flew down the stairs. But nothing in life could\'ve prepared him for that sight. His blood ran ice cold.',
+        text: 'The old man flew to the door. But nothing in life could\'ve prepared him for that sight. His blood ran ice cold.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'The door was ajar, his wife a heap on the ground, dead with fright.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'The thing in between the door frame looked him straight in the eye and stared down to his soul.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'I’m home, father.',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/musdte4bj/imageedit_4_9354297053.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'The end.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       }
     ],
   }
