@@ -1252,12 +1252,22 @@ const STORY_GRAPH_MONKEY_PAW = {
     options: [],
     scripts: [
       {
-        text: 'The knocking ceased suddenly, although the echoes of it were still in the house. He heard the chair drawn back, and the door opened. A cold wind rushed up the staircase, and a long loud wail of disappointment and misery from his wife gave him courage to run down to her side, and then to the gate beyond. The street lamp flickering opposite shone on a quiet and deserted road.',
+        text: 'The knocking ceased suddenly, although the echoes of it were still in the house. He heard the chair drawn back, and the door opened.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png'
+      },
+      {
+        text: 'A cold wind rushed up the staircase, and a long loud wail of disappointment and misery from his wife gave him courage to run down to her side, and then to the gate beyond. The street lamp flickering opposite shone on a quiet and deserted road.',
+        speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/i7d500k5r/Design_7.png'
       },
       {
         text: 'The end.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/i7d500k5r/Design_7.png'
       },
     ],
     speakerKey: [NARRATOR]
