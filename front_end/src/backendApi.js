@@ -379,42 +379,62 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Mr. White dropped it back in his pocket, and placing chairs, motioned his friend to the table. In the business of supper the talisman was partly forgotten, and afterward the three sat listening in an enthralled fashion to a second installment of the soldier\'s adventures in India. As the night deepened and the hour turned late, Morris bade the family goodbye to catch the last train.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'If the tale about the monkey\'s paw is not more truthful than those he has been telling us, we sha\'nt make much out of it.',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/ehi3lfapr/imageedit_1_5556481439.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Hmm...',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/uneg7ysq7/imageedit_1_6644374430.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Did you give him anything for it father?',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/gal096b5r/imageedit_1_7336455624.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'A trifle. He didn\'t want it, but I made him take it. And he pressed me again to throw it away.',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/uneg7ysq7/imageedit_1_6644374430.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'I wonder of his aversion. Why, we can be rich, famous, and happy. Wish to be an emperor, father, to begin with, then you can\'t be henpecked.',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/gi8n5v9bj/imageedit_1_7795666038.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'He darted round the table, pursued by the maligned Mrs. White armed with an antimacassar. Mr. White took the paw from his pocket and eyed it dubiously.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png'
       },
       {
         text: 'I don\'t know what to wish for, and that\'s a fact. It seems to me I\'ve got all I want.',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/n9z28u0wv/imageedit_1_3498685821.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'If you only cleared the house, you\'d be quite happy, wouldn\'t you? Well, wish for two hundred pounds, then, that\'ll just do it.',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/gi8n5v9bj/imageedit_1_7795666038.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Mr. White, smiling shamefacedly at his own credulity, held up the talisman, as his son, with a solemn face, somewhat marred by a wink at his mother, sat down at the piano and struck a few impressive chords.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
     button: [
