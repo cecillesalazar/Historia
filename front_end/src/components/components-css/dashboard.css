@@ -9,45 +9,38 @@
 
 .play-button {
   color: white;
-  background-color: green;
+  background-color: #4d4e4f;
   font-family: 'Neucha', cursive;
   font-size: 80%;
-  width: 30%;
-  min-width: 120px;
+  width: 133px;
+  min-width: 48px;
   min-height: 48px;
-  display: block;
   border: 2px solid white;
   box-shadow:
-  0 3px 4px #fff, /*bottom external highlight*/
-  0 -1px 1px #666, /*top external shadow*/
-  inset 0 -2px 2px rgba(0,0,0,0.5), /*bottom internal shadow*/
-  inset 0 5px 5px rgba(255,255,255,0.8); /*top internal highlight*/
+  0 3px 4px gray;
   border-radius: 8px;
-  padding-top: .5%;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
+  padding-top: 1.5%;
+  position: fixed;
+  display: inline-block;
+  left: 35%;
 }
  .tutorial-button {
-  color: white;
-  background-color: green;
-  font-family: 'Neucha', cursive;
-  font-size: 80%;
-  margin-top: 1%;
-  width: 30%;
-  min-width: 120px;
-  min-height: 48px;
-  display: block;
-  border: 2px solid white;
-  box-shadow:
-  0 3px 4px #fff, /*bottom external highlight*/
-  0 -1px 1px #666, /*top external shadow*/
-  inset 0 -2px 2px rgba(0,0,0,0.5), /*bottom internal shadow*/
-  inset 0 5px 5px rgba(255,255,255,0.8); /*top internal highlight*/
-  border-radius: 8px;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
+   color: white;
+   background-color: #4d4e4f;
+   font-family: 'Neucha', cursive;
+   font-size: 80%;
+   width: 133px;
+   min-width: 48px;
+   min-height: 48px;
+   border: 2px solid white;
+   box-shadow:
+   0 3px 4px gray;
+   border-radius: 8px;
+   padding-top: 1.5%;
+   position: fixed;
+   display: inline-block;
+   left: 35%;
+   bottom: 12%;
 }
 
 .buttons-container {
