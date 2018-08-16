@@ -558,32 +558,47 @@ const STORY_GRAPH_MONKEY_PAW = {
     key: HAPPY_ENDING,
     options: [],
     scripts: [
-      {text: 'Fortune seemed to smile on the White household as the seasons changed. They didn\'t live as kings and queens, yet seemed to avoid the tragedies in which man is so frequently plagued. Never had they run out of sustenance when times were meager. And in the event of the great flood, which reduced the town\'s homes to less than a quarter, their cozy cottage remained oddly intact, even as all their neighbors experienced the opposite fate. It was as if mother nature had chosen to respect the tiny family, for reasons unknown to them.',
+      {
+        text: 'Fortune seemed to smile on the White household as the seasons changed. They didn\'t live as kings and queens, yet seemed to avoid the tragedies in which man is so frequently plagued. Never had they run out of sustenance when times were meager. And in the event of the great flood, which reduced the town\'s homes to less than a quarter, their cozy cottage remained oddly intact, even as all their neighbors experienced the opposite fate. It was as if mother nature had chosen to respect the tiny family, for reasons unknown to them.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/8huchqv27/Design_24.png',
       },
       {
         text: 'Herbert married. A beautiful young lass with sharp wits about her, and a penchant for business. They opened their own trade, and Herbert went from being the common laborer to a respected merchant. Children followed soon afterwards, to the delight of their old mother and father, who seemed to have aged amicably.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/8huchqv27/Design_24.png',
       },
       {
         text: 'The family lived fruitfully, the children begetting children as the decades rolled by. As he neared his hundredth year, the old man looked at the sky and briefly remembered that strange night when he came into possession of a magical paw and was once tempted to defy fate with a wish.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/8huchqv27/Design_24.png',
       },
       {
         text: 'He closed his eyes. And looked deeply into himself. And realized.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/8huchqv27/Design_24.png',
       },
       {
         text: 'That he did not feel the twinge of regret for what could\'ve been.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/8huchqv27/Design_24.png',
       },
       {
         text: 'Everything was as it should be. And it is.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/8huchqv27/Design_24.png',
       },
       {
         text: 'The end.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/8huchqv27/Design_24.png',
       },
     ],
   },
