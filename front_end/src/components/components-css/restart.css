@@ -1,10 +1,12 @@
-.logout-button {
+.restart-button {
   color: white;
   background-color: green;
   font-family: 'Neucha', cursive;
   font-size: 80%;
-  min-width: 15%;
-  min-height: 5%;
+  margin-bottom: 1%;
+  width: 133px;
+  min-width: 48px;
+  min-height: 48px;
   display: inline-block;
   border: 2px solid white;
   box-shadow:
@@ -13,12 +15,8 @@
   inset 0 -2px 2px rgba(0,0,0,0.5), /*bottom internal shadow*/
   inset 0 5px 5px rgba(255,255,255,0.8); /*top internal highlight*/
   border-radius: 8px;
+  padding-top: .5%;
   position: fixed;
-  top: 3%;
-  right: 3%;
-
-}
- .welcome {
-  font-family: 'Neucha', cursive;
-  margin: 2%;
+  bottom: 1%;
+  right: 2%;
 }

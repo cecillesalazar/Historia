@@ -1,3 +1,9 @@
+.login-form {
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+}
+
 .logo {
   font-family: 'Macondo', cursive;
   text-align: center;
@@ -13,7 +19,7 @@
   font-family: 'Neucha', cursive;
   font-size: 80%;
   margin-bottom: 1%;
-  width: 10%;
+  width: 133px;
   min-width: 120px;
   min-height: 48px;
   display: block;
@@ -38,4 +44,12 @@
   margin-bottom: 1.5%;
   width: 40%;
   padding: .5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-button {
+    height: 48px;
+    width: 48px;
+    margin-top: 20px;
+  }
 }

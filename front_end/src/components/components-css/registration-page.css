@@ -6,3 +6,13 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+.login-link {
+  position: fixed;
+  width: 100%;
+  bottom: 3%;
+}
+
+.login-link a {
+  position: relative;
+}

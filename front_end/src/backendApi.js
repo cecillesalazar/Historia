@@ -1,4 +1,4 @@
-WELL_DRESSED_GENTLEMAN// A temp variable to mikic using our database;
+// A temp variable to mikic using our database;
 // Ultimately we will need to make ajax requests to our server from this file.
 export const saveGame = saveFile => {
   return fetch('/5b6867ee107abe0f460f2eff', {
@@ -267,11 +267,11 @@ const STORY_GRAPH_MONKEY_PAW = {
         speakerKey: MRS_WHITE,
       },
       {
-        text: 'Mr. White drew the talisman from pocket, and then all three burst into laughter as the sergeant major, with a look of alarm on his face, caught him by the arm.',
+        text: 'Mr. White drew the talisman from his pocket, and then all three burst into laughter as the sergeant major, with a look of alarm on his face, caught him by the arm.',
         speakerKey: NARRATOR,
       },
       {
-        text: 'If you must wish...wish for something sensible',
+        text: 'If you must wish...wish for something sensible.',
         speakerKey: MORRIS,
       },
     ],
@@ -590,7 +590,7 @@ const STORY_GRAPH_MONKEY_PAW = {
     ],
     scripts: [
       {
-        texte: 'In the huge new cemetery, some two miles distant, the old people buried their dead, and came back to a house steeped in shadow and silence. It was all over so quickly that at first they could hardly realize it, and remained in a state of expectation as though of something else to happen —something else which was to lighten this load, too heavy for old hearts to bear.',
+        text: 'In the huge new cemetery, some two miles distant, the old people buried their dead, and came back to a house steeped in shadow and silence. It was all over so quickly that at first they could hardly realize it, and remained in a state of expectation as though of something else to happen —something else which was to lighten this load, too heavy for old hearts to bear.',
         speakerKey: NARRATOR,
       },
       {

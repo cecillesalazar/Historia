@@ -13,8 +13,7 @@ export const reducer = (state = {}, action) => {
     return Object.assign({}, state, {
       currentStory: action.story,
       currentStoryNodeKey: action.story.startNode,
-      storyIndex: 0,
-      speakerIndex: 0,
+      storyIndex: 0
     })
   } else if(action.type === 'DISPLAY_GAMEPLAY') {
     return Object.assign({}, state, {
@@ -24,18 +23,14 @@ export const reducer = (state = {}, action) => {
     return Object.assign({}, state, {
       tutorialButton: action.bool
     })
-  } else if(action.type === 'CHANGE_STORY_INDEX') {
+  } else if(action.type === 'RESET_STORY_INDEX') {
     return Object.assign({}, state, {
-      storyIndex: action.num
+      storyIndex: 0
     })
   } else if(action.type === 'INCREMENT_STORY_INDEX') {
     return Object.assign({}, state, {
       storyIndex: state.storyIndex + 1,
     });
-  } else if(action.type === 'CHANGE_SPEAKER_INDEX') {
-    return Object.assign({}, state, {
-      speakerIndex: action.num
-    })
   } else {
     return state;
   }
