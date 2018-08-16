@@ -516,26 +516,38 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'His friend\'s words echoed in his ear.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'If you keep it, don\'t blame me for what happens. Pitch it on the fire again like a sensible man.',
         speakerKey: NARRATOR,
+        speakerImage: 'https://s25.postimg.cc/oet4e7v3j/imageedit_1_7390449985.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'A sensible man...that indeed was who he was. Curiosity over the talisman and the inevitable greed that it aroused may have led him astray for a time, but not this time. He began to lower his arm, and swift as the wind, he threw the paw into the fire.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Father!',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/gal096b5r/imageedit_1_7336455624.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Dear!',
         speakerKey: MRS_WHITE,
+        speakerImage: 'https://s25.postimg.cc/z2wvdappr/imageedit_1_5110654126.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'His wife and son simply stared, their jaws agape, their eyes riveted to the fire as it did its duty. For a moment, they seemed to see a face of a withered old man wearing a wry smile shaped by the smoke and the flames, but it quickly faded, leading them to believe that it was nothing but mere imagination.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
     button: [
