@@ -23,6 +23,19 @@
   display: block;
 }
 
+.speaker-image-container {
+  width: 20%;
+  height: 35%;
+  position: fixed;
+  right: 5%;
+  bottom: 38%;
+  overflow: hidden;
+}
+
+.speaker-image {
+
+}
+
 .dialogue {
   font-family: Neucha, cursive;
   font-size: 20px;
@@ -32,11 +45,12 @@
 }
 
 .background-image-container {
-  width: 50%;
-  height: 50%;;
-  top: 10%;
-  left: 25%;
+  width: 75%;
+  height: 55%;
+  top: 5%;
+  left: 5%;
   position: fixed;
+  overflow: hidden;
 }
 
 .background-image {
