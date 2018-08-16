@@ -1125,38 +1125,56 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
        text: 'What\'s that?',
         speakerKey: MRS_WHITE,
+        speakerImage: 'https://s25.postimg.cc/z2wvdappr/imageedit_1_5110654126.gif',
+        backgroundUrl: 'https://s25.postimg.cc/ytup9gfrz/Design_1.png',
       },
       {
         text: 'A rat...a rat. It passed me on the stairs.',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/og327o77z/imageedit_3_8866029132.gif',
+        backgroundUrl: 'https://s25.postimg.cc/ytup9gfrz/Design_1.png',
       },
       {
         text: 'Mrs. White sat up in the bed and listened. Then unmistakably, a knock resounded through the house.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/ytup9gfrz/Design_1.png',
       },
       {
         text: 'It’s Herbert! It’s Herbert!',
         speakerKey: MRS_WHITE,
+        speakerImage: 'https://s25.postimg.cc/9mt00j6tb/imageedit_1_4856933481.gif',
+        backgroundUrl: 'https://s25.postimg.cc/ytup9gfrz/Design_1.png',
       },
       {
         text: 'She ran to the door, but her husband was before her, and catching her by the arm, held her tightly.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'What are you going to do?',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/v1fs7f7n3/imageedit_2_4118282660.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'It\'s my boy, it\'s Herbert! I forgot it was two miles away...the cemetery! What are you holding me for? Let go. I must open the door.',
         speakerKey: MRS_WHITE,
+        speakerImage: 'https://s25.postimg.cc/9mt00j6tb/imageedit_1_4856933481.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'For God’s sake, don\'t let it in!',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/v1fs7f7n3/imageedit_2_4118282660.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'You\'re afraid of you own son. Let me go. I\'m coming, Herbert. Mother\'s coming.',
         speakerKey: MRS_WHITE,
+        speakerImage: 'https://s25.postimg.cc/9mt00j6tb/imageedit_1_4856933481.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
     button: [
