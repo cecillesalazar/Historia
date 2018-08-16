@@ -33,7 +33,7 @@
 }
 
 .speaker-image {
-
+  height: 100%;
 }
 
 .dialogue {
@@ -57,7 +57,6 @@
 
 }
 
-
 @media only screen and (max-width: 800px) {
   .dialogue {
     font-size: 17px;
@@ -65,5 +64,29 @@
 
   .speaker-name {
     font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .background-image-container {
+    top: 8%;
+    left: 5%;
+    right: 5%;
+    height: 60%;
+    width: 90%;
+  }
+
+  .background-image {
+    height: 90%;
+  }
+
+  .speaker-image-container {
+    height: 25%;
+    width: 30%;
+    bottom: 37%;
+  }
+
+  .speaker-image {
+    height: 100%;
   }
 }
