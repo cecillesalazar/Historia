@@ -157,7 +157,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Sergeant Major Morris. But please, just call me Morris.',
         speakerKey: BURLY_RED_FACED_MAN,
-        speakerImage: 'https://s25.postimg.cc/5jxdnikof/imageedit_4_5913323711.gif',
+        speakerImage: 'https://s25.postimg.cc/w3uk3udb3/morris-reg.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -175,7 +175,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'You don’t look to have taken much harm.',
         speakerKey: MRS_WHITE,
-        speakerImage: 'https://s25.postimg.cc/cpp4qcbvj/imageedit_1_2841701462.gif',
+        speakerImage: 'https://s25.postimg.cc/vr35xopwf/mrswhite-rerender.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -187,7 +187,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Better where you are.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/5jxdnikof/imageedit_4_5913323711.gif',
+        speakerImage: 'https://s25.postimg.cc/jnxu9vmhb/imageedit_1_7401419915.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -199,19 +199,19 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Nothing...leastways nothing worth hearing.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/5jxdnikof/imageedit_4_5913323711.gif',
+        speakerImage: 'https://s25.postimg.cc/w3uk3udb3/morris-reg.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Monkey’s paw?',
         speakerKey: MRS_WHITE,
-        speakerImage: 'https://s25.postimg.cc/cpp4qcbvj/imageedit_1_2841701462.gif',
+        speakerImage: 'https://s25.postimg.cc/vr35xopwf/mrswhite-rerender.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Well, it\'s just a bit of what you might call magic, perhaps.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/5jxdnikof/imageedit_4_5913323711.gif',
+        speakerImage: 'https://s25.postimg.cc/w3uk3udb3/morris-reg.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -223,7 +223,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'It\'s just an ordinary little paw, dried to a mummy.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/5jxdnikof/imageedit_4_5913323711.gif',
+        speakerImage: 'https://s25.postimg.cc/w3uk3udb3/morris-reg.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -241,7 +241,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'It had a spell put on it by an old fakir. A very holy man. He wanted to show that fate ruled people\'s lives, and that those who interfered with it did so to their sorrow. He put a spell on it so that three separate men could each have three wishes from it.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/5jxdnikof/imageedit_4_5913323711.gif',
+        speakerImage: 'https://s25.postimg.cc/w3uk3udb3/morris-reg.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -253,31 +253,31 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I have.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/oet4e7v3j/imageedit_1_7390449985.gif',
+        speakerImage: 'https://s25.postimg.cc/jnxu9vmhb/imageedit_1_7401419915.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'And did you really have the three wishes granted?',
         speakerKey: MRS_WHITE,
-        speakerImage: 'https://s25.postimg.cc/cpp4qcbvj/imageedit_1_2841701462.gif',
+        speakerImage: 'https://s25.postimg.cc/vr35xopwf/mrswhite-rerender.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'I did.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/oet4e7v3j/imageedit_1_7390449985.gif',
+        speakerImage: 'https://s25.postimg.cc/jnxu9vmhb/imageedit_1_7401419915.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'And has anybody else wished?',
         speakerKey: MRS_WHITE,
-        speakerImage: 'https://s25.postimg.cc/cpp4qcbvj/imageedit_1_2841701462.gif',
+        speakerImage: 'https://s25.postimg.cc/vr35xopwf/mrswhite-rerender.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'The first man had his three wishes...yes. I don\'t know what the first two were, but the third was for death. That\'s how I got the paw.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/5jxdnikof/imageedit_4_5913323711.gif',
+        speakerImage: 'https://s25.postimg.cc/jnxu9vmhb/imageedit_1_7401419915.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -295,7 +295,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Fancy, I suppose. I did have some idea of selling it, but I don\'t think I will. It has caused enough mischief already. Besides, people won\'t buy. They think it\'s a fairy tale, some of them, and those who do think anything of it want to try it first and pay me afterward.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/5jxdnikof/imageedit_4_5913323711.gif',
+        speakerImage: 'https://s25.postimg.cc/w3uk3udb3/morris-reg.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -307,7 +307,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I don\'t know...I don\'t know.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/oet4e7v3j/imageedit_1_7390449985.gif',
+        speakerImage: 'https://s25.postimg.cc/jnxu9vmhb/imageedit_1_7401419915.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -319,7 +319,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Better let it burn.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/oet4e7v3j/imageedit_1_7390449985.gif',
+        speakerImage: 'https://s25.postimg.cc/jnxu9vmhb/imageedit_1_7401419915.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -331,7 +331,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I won\'t. I threw it on the fire. If you keep it, don\'t blame me for what happens. Pitch it on the fire again like a sensible man.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/oet4e7v3j/imageedit_1_7390449985.gif',
+        speakerImage: 'https://s25.postimg.cc/w3uk3udb3/morris-reg.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -343,7 +343,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Hold it up in your right hand and wish aloud...but I warn you of the consequences.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/5jxdnikof/imageedit_4_5913323711.gif',
+        speakerImage: 'https://s25.postimg.cc/w3uk3udb3/morris-reg.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -361,7 +361,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'If you must wish...wish for something sensible.',
         speakerKey: MORRIS,
-        speakerImage: 'https://s25.postimg.cc/oet4e7v3j/imageedit_1_7390449985.gif',
+        speakerImage: 'https://s25.postimg.cc/jnxu9vmhb/imageedit_1_7401419915.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
