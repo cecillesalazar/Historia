@@ -1,10 +1,15 @@
+body {
+  background-image: url('https://s25.postimg.cc/p1wmhqhfz/Design_34.png')
+}
+
 .logo {
-  font-family: 'Macondo', cursive;
+  font-family: 'Cinzel', serif;
   text-align: center;
   font-size: 55px;
   padding: 5%;
-  margin-top: 5%;
+  margin-top: 25%;
   margin-bottom: 5%;
+  text-shadow: 0px 0px 10px white;
 }
 
 .play-button {
