@@ -86,39 +86,56 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Without, the night was cold and wet, but in the small parlour of Laburnam Villa, the blinds were drawn and the fire burned brightly. Father and son were at chess, the former, who possessed ideas about the game involving radical changes, putting his king into such sharp and unnecessary perils that it even provoked comment from mother, who knit placidly by the fire.',
         speakerKey: NARRATOR,
+        speakerImage: '',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Hark at the wind!',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/uneg7ysq7/imageedit_1_6644374430.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Father, who, having seen a fatal mistake after it was too late, was amiably desirous of preventing his son from seeing it and hoped to throw him off the scent by drawing attention to the squall.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'I\'m listening.',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/hkitobztr/imageedit_1_2777644127.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Herbert grimly surveys the board and stretches out his hand.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Check-',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/hkitobztr/imageedit_1_2777644127.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'I should hardly think that he\'d come tonight.',
         speakerKey: MR_WHITE,
+        speakerImage: 'https://s25.postimg.cc/uneg7ysq7/imageedit_1_6644374430.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: '-mate.',
         speakerKey: HERBERT,
+        speakerImage: 'https://s25.postimg.cc/gi8n5v9bj/imageedit_1_7795666038.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'Father\'s face contorts as he leans forward to debunk his son’s claim, when suddenly he hears the creaking of the rusty gate, signaling that their visitor had indeed made it after all. Rising hastily from his seat, he runs to the door to greet their guest.',
         speakerKey: NARRATOR,
+        speakerImage: 'https://s25.postimg.cc/v1fs7f7n3/imageedit_2_4118282660.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
     button: [
