@@ -1189,16 +1189,34 @@ const STORY_GRAPH_MONKEY_PAW = {
     ],
     scripts: [
       {
-        text: 'There was another knock, and another. The old woman with a sudden wrench broke free and ran from the room. Her husband followed to the landing, and called after her appealingly as she hurried downstairs. He heard the chain rattle back and the bottom bolt drawn slowly and stiffly from the socket. Then the old woman\'s voice, strained and panting.',
+        text: 'There was another knock, and another. The old woman with a sudden wrench broke free and ran to the door. Her husband called after her, but she did not heed his cries.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
+      },
+      {
+        text: 'He heard the chain rattle back and the bottom bolt drawn slowly and stiffly from the socket. Then the old woman\'s voice, strained and panting.',
+        speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
         text: 'The bolt. Come down, I can\'t reach it.',
         speakerKey: MRS_WHITE,
+        speakerImage: 'https://s25.postimg.cc/9mt00j6tb/imageedit_1_4856933481.gif',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
-        text: 'But Mr. White was on his hands and knees groping wildly on the floor in search of the paw. If he could only find it before the thing outside got in. A perfect fusillade of knocks reverberated through the house, and he heard the scraping of a chair as his wife put it down in the passage against the door. He heard the creaking of the bolt as it came slowly back, and at the same moment he found the monkey\'s paw, and frantically...',
+        text: 'But Mr. White was on his hands and knees groping wildly on the floor in search of the paw. If he could only find it before the thing outside got in.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
+      },
+      {
+        text: 'A perfect fusillade of knocks reverberated through the house, and he heard the scraping of a chair as his wife put it down in the passage against the door. He heard the creaking of the bolt as it came slowly back, and at the same moment he found the monkey\'s paw, and frantically...',
+        speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
     ],
     button: [
