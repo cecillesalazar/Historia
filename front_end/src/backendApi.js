@@ -695,7 +695,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I...I was asked to call. I come from Maw and Meggins.',
         speakerKey: WELL_DRESSED_GENTLEMAN,
-        speakerImage: '',
+        speakerImage: 'https://s25.postimg.cc/vyqsts8gf/imageedit_2_8899215295.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -713,7 +713,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I\'m sorry-',
         speakerKey: WELL_DRESSED_GENTLEMAN,
-        speakerImage: '',
+        speakerImage: 'https://s25.postimg.cc/vyqsts8gf/imageedit_2_8899215295.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -725,7 +725,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Badly hurt, but he is not in any pain.',
         speakerKey: WELL_DRESSED_GENTLEMAN,
-        speakerImage: '',
+        speakerImage: 'https://s25.postimg.cc/vyqsts8gf/imageedit_2_8899215295.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -743,7 +743,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'He was caught in the machinery.',
         speakerKey: WELL_DRESSED_GENTLEMAN,
-        speakerImage: '',
+        speakerImage: 'https://s25.postimg.cc/vyqsts8gf/imageedit_2_8899215295.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -767,7 +767,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'The firm wished me to convey their sincere sympathy with you in your great loss. I beg that you will understand I am only their servant and merely obeying orders.',
         speakerKey: WELL_DRESSED_GENTLEMAN,
-        speakerImage: '',
+        speakerImage: 'https://s25.postimg.cc/vyqsts8gf/imageedit_2_8899215295.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -779,7 +779,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'I was to say that Maw and Meggins disclaim all responsibility. They admit no liability at all, but in consideration of your son\'s services, they wish to present you with a certain sum as compensation.',
         speakerKey: WELL_DRESSED_GENTLEMAN,
-        speakerImage: '',
+        speakerImage: 'https://s25.postimg.cc/vyqsts8gf/imageedit_2_8899215295.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
@@ -797,7 +797,7 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'Two hundred pounds.',
         speakerKey: WELL_DRESSED_GENTLEMAN,
-        speakerImage: '',
+        speakerImage: 'https://s25.postimg.cc/vyqsts8gf/imageedit_2_8899215295.gif',
         backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
       },
       {
