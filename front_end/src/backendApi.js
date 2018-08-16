@@ -1028,22 +1028,32 @@ const STORY_GRAPH_MONKEY_PAW = {
       {
         text: 'The old couple lived on. Never quite the same. And although it seems that they\'d been spared the worst misfortunes of mankind, the remainder of their lives held little meaning for them. There was nothing more to look forward to, and everything ill to look back on.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/q0czjomyn/imageedit_2_3809577070.png',
       },
       {
         text: 'The decades rolled by. And as he neared his hundredth year, the old man looked to the sky and remembered that fateful night...when he came into the possession of a magical paw and defied the rule of the heavens...all for a small sum of two-hundred pounds.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/q0czjomyn/imageedit_2_3809577070.png',
       },
       {
         text: 'He went inside, laid down on his bed and closed his eyes...',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/ytup9gfrz/Design_1.png',
       },
       {
         text: '...and never opened them again.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/ytup9gfrz/Design_1.png',
       },
       {
         text: 'The end.',
         speakerKey: NARRATOR,
+        speakerImage: '',
+        backgroundUrl: 'https://s25.postimg.cc/ytup9gfrz/Design_1.png',
       }
     ],
   },
