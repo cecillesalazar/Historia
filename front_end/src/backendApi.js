@@ -230,7 +230,7 @@ const STORY_GRAPH_MONKEY_PAW = {
         text: 'Morris unwraps the bundle and laid it on the table. Mrs. White drew back with a grimace, but her son, taking it, examined it curiously.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
+        backgroundUrl: 'https://s25.postimg.cc/h1mx6gffz/monkeypaw.gif',
       },
       {
         text: 'And what is there special about it?',
@@ -434,7 +434,7 @@ const STORY_GRAPH_MONKEY_PAW = {
         text: 'Mr. White, smiling shamefacedly at his own credulity, held up the talisman, as his son, with a solemn face, somewhat marred by a wink at his mother, sat down at the piano and struck a few impressive chords.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
+        backgroundUrl: 'https://s25.postimg.cc/h1mx6gffz/monkeypaw.gif',
       },
     ],
     button: [
@@ -452,7 +452,7 @@ const STORY_GRAPH_MONKEY_PAW = {
         text: 'I wish for two hundred pounds.',
         speakerKey: MR_WHITE,
         speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
-        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
+        backgroundUrl: 'https://s25.postimg.cc/h1mx6gffz/monkeypaw.gif',
       },
       {
         text: 'A fine crash from the piano greeted the words, interrupted by a shuddering cry from the old man. His wife and son ran toward him.',
@@ -966,7 +966,7 @@ const STORY_GRAPH_MONKEY_PAW = {
         text: 'His brow cold with sweat, he felt his way round the table, and groped along the wall until he found himself in the small passage with the unwholesome thing in his hand.',
         speakerKey: NARRATOR,
         speakerImage: '',
-        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
+        backgroundUrl: 'https://s25.postimg.cc/h1mx6gffz/monkeypaw.gif',
       },
       {
         text: 'Even his wife\'s face seemed changed as she entered the sitting room. It was white and expectant, and to his fears seemed to have an unnatural look upon it. He was afraid of her.',
@@ -1073,7 +1073,7 @@ const STORY_GRAPH_MONKEY_PAW = {
         text: 'I wish my son alive again!',
         speakerKey: MR_WHITE,
         speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
-        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
+        backgroundUrl: 'https://s25.postimg.cc/h1mx6gffz/monkeypaw.gif',
       },
       {
         text: 'The talisman fell to the floor, and he regarded it fearfully. Then he sank trembling into a chair as his wife, with burning eyes, walked to the window and raised the blind.',
@@ -1240,7 +1240,7 @@ const STORY_GRAPH_MONKEY_PAW = {
         text: 'I wish my son would disappear!',
         speakerKey: MR_WHITE,
         speakerImage: 'https://s25.postimg.cc/zbz1gl9rz/mrwagape.gif',
-        backgroundUrl: 'https://s25.postimg.cc/aq3xl9crj/Design_3.png',
+        backgroundUrl: 'https://s25.postimg.cc/h1mx6gffz/monkeypaw.gif',
       },
     ],
     button: [
