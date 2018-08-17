@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const path = require('path');
 const cors = require('cors');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
@@ -17,13 +18,17 @@ const { dbConnect } = require('./db-mongoose');
 
 const app = express();
 app.use(express.json());
-app.use('/', storyRouter);
+app.use('/api', storyRouter);
 
 passport.use(localStrategy);
 passport.use(jwtStrategy);
 
-app.use('/', userRouter);
-app.use('/', authRouter);
+app.use('/api', userRouter);
+app.use('/api', authRouter);
+app.use('/', express.static(path.join(__dirname, '../front_end/build')))
+app.use('*', function unmatchedRedirect(req, res) {
+  res.redirect('/');
+})
 
 app.use(
   morgan(process.env.NODE_ENV === 'production' ? 'common' : 'dev', {
