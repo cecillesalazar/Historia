@@ -2,7 +2,8 @@ import React from 'react';
 
 export default class Tutorial extends React.Component {
   render() {
-    return (
+    return
+      //(
       // <div>
       // <h1>How To Play</h1>
       // <h3>Historia is a collection of folktales from a myriad of cultures. Each story allows the user(you!)
@@ -28,7 +29,6 @@ export default class Tutorial extends React.Component {
       //
       // <h3>Your story awaits...are you ready?</h3>
       // </div>
-    )
+    // )
   }
-
 }
