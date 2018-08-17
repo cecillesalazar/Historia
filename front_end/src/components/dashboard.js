@@ -14,6 +14,7 @@ export class Dashboard extends React.Component {
     this.displayGameplay = this.displayGameplay.bind(this);
     this.displayTutorial = this.displayTutorial.bind(this);
     this.displayDashboard = this.displayDashboard.bind(this);
+    this.returnFromTutorial = this.returnFromTutorial.bind(this);
 
   }
 
@@ -32,6 +33,10 @@ export class Dashboard extends React.Component {
     !this.props.tutorialButton ? this.props.dispatch(displayTutorial(true)) : ''
   }
 
+  returnFromTutorial() {
+    this.props.tutorialButton ? this.props.dispatch(displayTutorial(false)) : ''
+  }
+
     render() {
       if(this.props.playButton) {
         return (
@@ -47,7 +52,7 @@ export class Dashboard extends React.Component {
       } else if(this.props.tutorialButton) {
         return (
           <div>
-            <Tutorial />
+            <Tutorial returnFromTutorial={this.returnFromTutorial}/>
           </div>
         )
       } else {
