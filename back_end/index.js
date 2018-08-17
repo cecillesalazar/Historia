@@ -17,7 +17,6 @@ const { PORT, CLIENT_ORIGIN } = require('./config');
 const { dbConnect } = require('./db-mongoose');
 
 const app = express();
-app.use('/', express.static(path.join(__dirname, '../front_end/build')))
 app.use(express.json());
 app.use('/api', storyRouter);
 
@@ -26,6 +25,10 @@ passport.use(jwtStrategy);
 
 app.use('/api', userRouter);
 app.use('/api', authRouter);
+app.use('/', express.static(path.join(__dirname, '../front_end/build')))
+app.use('*', function unmatchedRedirect(req, res) {
+  res.redirect('/');
+})
 
 app.use(
   morgan(process.env.NODE_ENV === 'production' ? 'common' : 'dev', {
