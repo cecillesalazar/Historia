@@ -24,6 +24,7 @@
   display: block;
   margin: auto;
   margin-bottom: 1%;
+  padding-bottom: 13px;
 }
  .tutorial-button {
    color: white;
@@ -41,6 +42,7 @@
    position: relative;
    display: block;
    margin: auto;
+   padding-bottom: 13px;
 }
 
 .buttons-container {
@@ -48,4 +50,14 @@
   height: 200px;
   position: fixed;
   bottom: 0%;
+}
+
+@media only screen and (max-width: 750px) {
+  .play-button {
+    padding-bottom: 0px;
+  }
+
+  .tutorial-button {
+    padding-bottom: 0px;
+  }
 }

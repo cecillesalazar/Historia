@@ -18,8 +18,15 @@
   top: 2%;
   right: 3%;
   z-index: 1;
+  padding-bottom: 13px;
 }
  .welcome {
   font-family: 'Neucha', cursive;
   margin: 2%;
+}
+
+@media only screen and (max-width: 750px) {
+  .logout-button {
+    padding-bottom: 0px;
+  }
 }

@@ -15,6 +15,7 @@
   padding-top: 1.5%;
   position: fixed;
   bottom: 1%;
+  padding-bottom: 13px;
 }
 
 .story-change-button {
@@ -110,7 +111,8 @@
     width: 80px;
     margin-left: 5px;
     margin-right: 5px;
-    left: 57%
+    left: 57%;
+    padding-bottom: 6px;
   }
 
   .load-button {
@@ -120,6 +122,7 @@
     margin-left: 5px;
     margin-right: 5px;
     left: 72%;
+    padding-bottom: 6px;
   }
 
   .restart-button {
@@ -130,6 +133,11 @@
     margin-right: 5px;
     left: 87%;
     right: 5%;
+    padding-bottom: 6px;
+  }
+
+  .next-button {
+    padding-bottom: 0px;
   }
 }
 
@@ -143,7 +151,8 @@
     width: 70px;
     margin-left: 5px;
     margin-right: 5px;
-    left: 57%
+    left: 57%;
+    padding-bottom: 0px;
   }
 
   .load-button {
@@ -153,6 +162,7 @@
     margin-left: 5px;
     margin-right: 5px;
     left: 72%;
+    padding-bottom: 0px;
   }
 
   .restart-button {
@@ -163,6 +173,8 @@
     margin-right: 5px;
     left: 87%;
     right: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
@@ -195,6 +207,16 @@
       margin-right: 10px;
       left: 80%;
     }
+}
+
+@media only screen and (max-width: 750px) {
+  .dashboard-button {
+    padding-bottom: 0px;
+  }
+
+  .story-change-button {
+    padding-bottom: 0px;
+  }
 }
 
 @media only screen and (max-width: 414px) {

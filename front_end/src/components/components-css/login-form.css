@@ -29,6 +29,7 @@
   box-shadow: 0 3px 4px gray;
   border-radius: 8px;
   padding-top: .5%;
+  padding-bottom: 4px;
 }
  .login-form {
   font-size: 20px;
@@ -47,5 +48,6 @@
     height: 48px;
     width: 48px;
     margin-top: 20px;
+    padding-bottom: 0px;
   }
 }

@@ -7,7 +7,9 @@ const getCurrentStoryGraph = (state) => getCurrentStory(state).storyGraph;
 const getCurrentStoryNodeKey = (state) => getGame(state).currentStoryNodeKey;
 
 const getSpeakers = (state) => getCurrentStory(state).speakers;
-/* MEOW  look at this impl */
+
+export const getStartNode = (state) => getCurrentStory(state).startNode;
+
 export const getStoryNode = converge(
   (storyGraph, key) => storyGraph[key],
   [getCurrentStoryGraph, getCurrentStoryNodeKey],
