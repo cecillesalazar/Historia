@@ -1,5 +1,3 @@
-import helper from '../components/helper.js';
-
 export const reducer = (state = {}, action) => {
   if(action.type === 'CHANGE_NODE') {
     return Object.assign({}, state, {
