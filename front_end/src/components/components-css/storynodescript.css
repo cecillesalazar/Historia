@@ -60,6 +60,18 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .background-image-container {
+    top: 2%;
+    left: 5%;
+    right: 5%;
+    height: 67%;
+    width: 90%;
+  }
+
+  .background-image {
+    height: 90%;
+  }
+
   .dialogue {
     font-size: 17px;
   }

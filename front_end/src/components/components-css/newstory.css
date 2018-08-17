@@ -16,4 +16,11 @@
   position: fixed;
   bottom: 1%;
   left: 5%;
+  padding-bottom: 13px;
+}
+
+@media only screen and (max-width: 414px) {
+  .newstory-button {
+    padding-bottom: 0px;
+  }
 }
