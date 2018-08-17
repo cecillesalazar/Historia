@@ -6,6 +6,8 @@
   bottom: 12%;
   border: 2px solid black;
   position: fixed;
+  background-color: white;
+  z-index: 1;
 }
 
 .speaker-name-container {
@@ -28,7 +30,7 @@
   height: 35%;
   position: fixed;
   right: 5%;
-  bottom: 38%;
+  bottom: 34%;
   overflow: hidden;
 }
 
@@ -45,8 +47,8 @@
 }
 
 .background-image-container {
-  width: 75%;
-  height: 55%;
+  width: 90%;
+  height: 57%;
   top: 5%;
   left: 5%;
   position: fixed;
