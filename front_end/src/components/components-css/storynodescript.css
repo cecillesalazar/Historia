@@ -6,6 +6,8 @@
   bottom: 12%;
   border: 2px solid black;
   position: fixed;
+  background-color: white;
+  z-index: 1;
 }
 
 .speaker-name-container {
@@ -23,6 +25,19 @@
   display: block;
 }
 
+.speaker-image-container {
+  width: 20%;
+  height: 35%;
+  position: fixed;
+  right: 5%;
+  bottom: 34%;
+  overflow: hidden;
+}
+
+.speaker-image {
+  height: 100%;
+}
+
 .dialogue {
   font-family: Neucha, cursive;
   font-size: 20px;
@@ -31,6 +46,18 @@
   margin-top: 2%;
 }
 
+.background-image-container {
+  width: 90%;
+  height: 57%;
+  top: 5%;
+  left: 5%;
+  position: fixed;
+  overflow: hidden;
+}
+
+.background-image {
+
+}
 
 @media only screen and (max-width: 800px) {
   .dialogue {
@@ -39,5 +66,29 @@
 
   .speaker-name {
     font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .background-image-container {
+    top: 2%;
+    left: 5%;
+    right: 5%;
+    height: 67%;
+    width: 90%;
+  }
+
+  .background-image {
+    height: 90%;
+  }
+
+  .speaker-image-container {
+    height: 25%;
+    width: 30%;
+    bottom: 37%;
+  }
+
+  .speaker-image {
+    height: 100%;
   }
 }
