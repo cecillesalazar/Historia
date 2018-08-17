@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const path = require('path');
 const cors = require('cors');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
@@ -16,6 +17,7 @@ const { PORT, CLIENT_ORIGIN } = require('./config');
 const { dbConnect } = require('./db-mongoose');
 
 const app = express();
+app.use('/', express.static(path.join(__dirname, '../front_end/build')))
 app.use(express.json());
 app.use('/api', storyRouter);
 
