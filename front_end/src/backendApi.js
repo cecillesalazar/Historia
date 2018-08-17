@@ -1,7 +1,9 @@
 // A temp variable to mikic using our database;
 // Ultimately we will need to make ajax requests to our server from this file.
+import { loadUser } from './local-storage.js';
+
 export const saveGame = saveFile => {
-  return fetch('/5b6867ee107abe0f460f2eff', {
+  return fetch(`/${loadUser().id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
@@ -12,7 +14,7 @@ export const saveGame = saveFile => {
 };
 
 export const loadGame = () => {
-  return fetch('/5b6867ee107abe0f460f2eff', {
+  return fetch(`/${loadUser().id}`, {
     method: 'GET'
   })
   .then(res => res.json())
