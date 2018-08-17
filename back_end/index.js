@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const User = require('./user-schema.js');
 const userRouter = require('./routes/user.js');
+const storyRouter = require('./routes/story.js');
 const { router: authRouter, localStrategy, jwtStrategy } = require('./auth');
 mongoose.Promise = global.Promise;
 
@@ -16,6 +17,7 @@ const { dbConnect } = require('./db-mongoose');
 
 const app = express();
 app.use(express.json());
+app.use('/', storyRouter);
 
 passport.use(localStrategy);
 passport.use(jwtStrategy);
