@@ -1,0 +1,7 @@
+{
+  "name": "historia",
+  "version": "0.1.0",
+  "scripts": {
+    "postinstall": "npm install --prefix back_end && npm install --prefix front_end && npm run build --prefix front_end"
+  }
+}
