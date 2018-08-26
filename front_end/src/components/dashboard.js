@@ -60,8 +60,8 @@ export class Dashboard extends React.Component {
           <div className="dashboard">
           <h1 className="logo" id="logo">Historia</h1>
             <div className="buttons-container">
-              <button type="button" className="play-button" onClick={() => this.displayGameplay()}>Play</button>
-              <button type="button" className="tutorial-button" onClick={() => this.displayTutorial()}>How to Play</button>
+              <button type="button" className="play-button" id="play-button"onClick={() => this.displayGameplay()}>Play</button>
+              <button type="button" className="tutorial-button" id="tutorial-button" onClick={() => this.displayTutorial()}>How to Play</button>
             </div>
           </div>
         )
