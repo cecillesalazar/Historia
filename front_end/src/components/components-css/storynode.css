@@ -224,7 +224,7 @@
     width: 120px;
     display: block;
     position: fixed;
-    left: 25%;
+    left: 28%;
   }
 
   .next-button {
@@ -243,6 +243,23 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .dashboard-button {
+    font-size: 11px;
+    width: 120px;
+    display: block;
+    position: fixed;
+    left: 28%;
+  }
+
+  .next-button {
+    font-size: 11px;
+    width: 80px;
+    position: fixed;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
   .dashboard-button {
     font-size: 11px;
     width: 120px;

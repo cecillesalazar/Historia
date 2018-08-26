@@ -103,4 +103,8 @@
   .speaker-image {
     height: 100%;
   }
+
+  .dialogue {
+    font-size: 16px;
+  }
 }
