@@ -43,12 +43,7 @@
   margin-bottom: 1.5%;
   width: 40%;
   padding: .5%;
-}
-
-label {
-  background-color: white;
-  box-shadow: 0 0 1px 1px #ffffff;
-  border-radius: 5%;
+  border: 1px solid black;
 }
 
 @media only screen and (max-width: 600px) {
