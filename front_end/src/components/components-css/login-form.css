@@ -31,11 +31,13 @@
   padding-top: .5%;
   padding-bottom: 4px;
 }
+
  .login-form {
   font-size: 20px;
   font-family: 'Neucha', cursive;
   text-align: center;
 }
+
  .login-form input {
   margin-top: .5%;
   margin-bottom: 1.5%;
@@ -49,10 +51,14 @@
     margin-top: 20%;
   }
 
+  label {
+    font-size: 13px;
+  }
+
   .login-button {
     height: 48px;
     width: 48px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-bottom: 0px;
   }
 }
