@@ -40,7 +40,7 @@ export class Dashboard extends React.Component {
     render() {
       if(this.props.playButton) {
         return (
-          <div className="dashboard">
+          <div id="dashboard">
             <div className="dashboard-username">
             </div>
             <StoryNode

@@ -1,0 +1,8 @@
+#app {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url('https://s25.postimg.cc/7ezjepnlr/Design_44.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
