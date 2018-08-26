@@ -1,7 +1,7 @@
 import React from 'react';
-import {connect} from 'react-redux';
-import {clearAuth} from '../actions/auth';
-import {clearAuthToken} from '../local-storage';
+import { connect } from 'react-redux';
+import { clearAuth } from '../actions/auth';
+import { clearAuthToken } from '../local-storage';
 import './components-css/header-bar.css';
 
 export class HeaderBar extends React.Component {
@@ -11,7 +11,6 @@ export class HeaderBar extends React.Component {
     }
 
     render() {
-        // Only render the log out button if we are logged in
         let logOutButton;
         if (this.props.loggedIn) {
             logOutButton = (

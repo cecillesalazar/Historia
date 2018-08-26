@@ -1,6 +1,6 @@
 import React from 'react';
-import {connect} from 'react-redux';
-import './components-css/returndashboard.css'
+import { connect } from 'react-redux';
+import './components-css/returndashboard.css';
 
 class ReturnDashboard extends React.Component {
   render() {

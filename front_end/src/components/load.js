@@ -1,6 +1,6 @@
 import React from 'react';
 import { loadGame } from '../backendApi.js';
-import './components-css/load.css'
+import './components-css/load.css';
 
 export default class Load extends React.Component {
   render() {

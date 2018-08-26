@@ -1,4 +1,4 @@
-import { converge } from 'ramda'
+import { converge } from 'ramda';
 const getGame = (state) => state.game;
 export const getPlayButton = (state) => getGame(state).playButton;
 export const getTutorialButton = (state) => getGame(state).tutorialButton;
@@ -48,9 +48,6 @@ export const getSpeaker = converge(
   [getScript, getSpeakers]
 )
 
-//Takes an object with keys as potential class names
-//and return a formatted className String with keys whos
-//values are trueish.
 export const classNames = (obj) =>  Object.keys(obj)
   .filter(key => obj[key])
   .join(' ');

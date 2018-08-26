@@ -1,5 +1,5 @@
-import {SubmissionError} from 'redux-form';
-import {normalizeResponseErrors} from './utils';
+import { SubmissionError } from 'redux-form';
+import { normalizeResponseErrors } from './utils';
 
 export const registerUser = user => dispatch => {
     return fetch(`/api/`, {
@@ -14,7 +14,6 @@ export const registerUser = user => dispatch => {
         .catch(err => {
             const {reason, message, location} = err;
             if (reason === 'ValidationError') {
-                // Convert ValidationErrors into SubmissionErrors for Redux Form
                 return Promise.reject(
                     new SubmissionError({
                         [location]: message

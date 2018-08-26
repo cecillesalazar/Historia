@@ -1,7 +1,7 @@
 import React from 'react';
 import StoryNode from './storynode.js';
 import Tutorial from './tutorial.js';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import requiresLogin from './requires-login';
 import { displayGameplay, displayTutorial, changeStory } from '../actions/actions.js';
 import { getPlayButton, getTutorialButton } from './helper.js';
@@ -15,7 +15,6 @@ export class Dashboard extends React.Component {
     this.displayTutorial = this.displayTutorial.bind(this);
     this.displayDashboard = this.displayDashboard.bind(this);
     this.returnFromTutorial = this.returnFromTutorial.bind(this);
-
   }
 
   displayGameplay() {

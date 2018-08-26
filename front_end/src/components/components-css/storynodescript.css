@@ -14,7 +14,7 @@
   width: 100%;
   height: 7%;
   position: fixed;
-  bottom: 37%;
+  bottom: 38%;
   left: 6%;
 }
 
@@ -118,7 +118,6 @@
 }
 
 @media only screen and (max-width: 375px) {
-
   .speaker-name-container {
     bottom: 36%;
   }

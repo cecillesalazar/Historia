@@ -1,7 +1,7 @@
 import React from 'react';
 import { saveGame } from '../backendApi.js';
 import { saveFileSuccess } from '../actions/actions.js';
-import './components-css/save.css'
+import './components-css/save.css';
 
 export default class Save extends React.Component {
   render() {

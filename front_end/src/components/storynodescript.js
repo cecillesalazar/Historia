@@ -1,7 +1,6 @@
 import React from 'react';
 import './components-css/storynodescript.css';
 import Typing from 'react-typing-animation';
-// import sha1 from 'sha1';
 
 export default class StoryNodeScript extends React.Component {
   render() {
