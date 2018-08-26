@@ -45,6 +45,12 @@
   padding: .5%;
 }
 
+label {
+  background-color: white;
+  box-shadow: 0 0 1px 1px #ffffff;
+  border-radius: 5%;
+}
+
 @media only screen and (max-width: 600px) {
   #logo {
     font-size: 40px;
