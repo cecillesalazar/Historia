@@ -56,9 +56,10 @@
   }
 
   .login-button {
+    font-size: 12px;
     height: 48px;
     width: 48px;
-    margin-top: 10px;
+    margin-bottom: 3%;
     padding-bottom: 0px;
   }
 }
