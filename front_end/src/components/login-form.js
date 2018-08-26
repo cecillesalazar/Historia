@@ -21,7 +21,7 @@ export class LoginForm extends React.Component {
         }
         return (
           <div className="container">
-            <h1 className="logo">Historia</h1>
+            <h1 className="logo" id="logo">Historia</h1>
             <form
                 className="login-form"
                 onSubmit={this.props.handleSubmit(values =>
