@@ -1,7 +1,5 @@
 README
 
-Preferred viewport: Iphone 6/7/8Plus 414 x 736
-
 Historia is a collection of stories from a myriad of cultures which allows the user to make choices that determine the future plot and endings of the story.
 
 Link: https://stark-caverns-30288.herokuapp.com/
@@ -71,7 +69,7 @@ Lastly, stories also have a key called speakers, which pilots in a similar fashi
               }
           }
       }
-}
+};
 
 Probably the most important file to reference in Historia is src/components/helper.js. This file contains all of the recyclable functions that allows for proper extraction of the data from the database. The second most important file is probably src/compononents/storynode.js which imports all of helper.js functions and passes them to the components that render the script, the options, and the save, load, and restart buttons as props.
 
@@ -88,4 +86,4 @@ Historia has ONE repository housing both the front-end and the back-end. Several
   }
 }
 
-Lastly, the framework IS built to accommodate for multiple stories in the database, although unfortunately, with the project time constraint, we were only able to finish one. 
+Lastly, the framework IS built to accommodate for multiple stories in the database, although unfortunately, with the project time constraint, we were only able to finish one.
