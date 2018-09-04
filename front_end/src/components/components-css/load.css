@@ -18,3 +18,12 @@
   bottom: 1%;
   right: 12.5%;
 }
+
+@media only screen and (max-width: 414px) {
+  #load-button {
+    font-size: 11px;
+    width: 50px;
+    display: block;
+    position: fixed;
+  }
+}

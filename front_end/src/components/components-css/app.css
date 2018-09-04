@@ -1,0 +1,8 @@
+#app {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url('https://s25.postimg.cc/i76al4a27/crown-of-thorns-2773399.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

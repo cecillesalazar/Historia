@@ -97,10 +97,50 @@
   .speaker-image-container {
     height: 25%;
     width: 30%;
-    bottom: 37%;
+    bottom: 34%;
   }
 
   .speaker-image {
     height: 100%;
+  }
+
+  .speaker-name-container {
+    bottom: 36%;
+  }
+
+  .speaker-name {
+    font-size: 18px;
+  }
+
+  .dialogue {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .speaker-name-container {
+    bottom: 36%;
+  }
+
+  .speaker-name {
+    font-size: 17px;
+  }
+
+  .dialogue {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .speaker-name-container {
+    bottom: 36%;
+  }
+
+  .speaker-name {
+    font-size: 15px;
+  }
+
+  .dialogue {
+    font-size: 13px;
   }
 }

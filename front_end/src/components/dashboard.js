@@ -1,7 +1,7 @@
 import React from 'react';
 import StoryNode from './storynode.js';
 import Tutorial from './tutorial.js';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import requiresLogin from './requires-login';
 import { displayGameplay, displayTutorial, changeStory } from '../actions/actions.js';
 import { getPlayButton, getTutorialButton } from './helper.js';
@@ -15,7 +15,6 @@ export class Dashboard extends React.Component {
     this.displayTutorial = this.displayTutorial.bind(this);
     this.displayDashboard = this.displayDashboard.bind(this);
     this.returnFromTutorial = this.returnFromTutorial.bind(this);
-
   }
 
   displayGameplay() {
@@ -40,7 +39,7 @@ export class Dashboard extends React.Component {
     render() {
       if(this.props.playButton) {
         return (
-          <div className="dashboard">
+          <div id="dashboard">
             <div className="dashboard-username">
             </div>
             <StoryNode
@@ -58,10 +57,10 @@ export class Dashboard extends React.Component {
       } else {
         return (
           <div className="dashboard">
-            <h1 className="logo">Historia</h1>
+          <h1 className="logo" id="logo">Historia</h1>
             <div className="buttons-container">
-              <button type="button" className="play-button" onClick={() => this.displayGameplay()}>Play</button>
-              <button type="button" className="tutorial-button" onClick={() => this.displayTutorial()}>How to Play</button>
+              <button type="button" className="play-button" id="play-button"onClick={() => this.displayGameplay()}>Play</button>
+              <button type="button" className="tutorial-button" id="tutorial-button" onClick={() => this.displayTutorial()}>How to Play</button>
             </div>
           </div>
         )

@@ -9,7 +9,7 @@ import {
 import { loadAuthToken, loadUser } from '../local-storage.js';
 
 const initialState = {
-    authToken: loadAuthToken(), // authToken !== null does not mean it has been validated
+    authToken: loadAuthToken(), 
     currentUser: loadUser(),
     loading: false,
     error: null

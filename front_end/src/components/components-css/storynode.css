@@ -24,7 +24,7 @@
   font-family: 'Neucha', cursive;
   font-size: 80%;
   margin-bottom: 1%;
-  width: 133px;
+  width: 200px;
   min-width: 48px;
   min-height: 48px;
   display: inline-block;
@@ -141,7 +141,6 @@
   }
 }
 
-
 @media only screen and (max-width: 700px) {
   .save-button {
     position: fixed;
@@ -224,7 +223,7 @@
     width: 120px;
     display: block;
     position: fixed;
-    left: 25%;
+    left: 28%;
   }
 
   .next-button {
@@ -236,7 +235,42 @@
 
 @media only screen and (max-width: 414px) {
   .story-change-button {
+    font-size: 11px;
     width: 100px;
     margin: 2%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .dashboard-button {
+    font-size: 11px;
+    width: 120px;
+    display: block;
+    position: fixed;
+    left: 28%;
+  }
+
+  .next-button {
+    font-size: 11px;
+    width: 80px;
+    position: fixed;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .dashboard-button {
+    font-size: 11px;
+    width: 120px;
+    display: block;
+    position: fixed;
+    left: 30%;
+  }
+
+  .next-button {
+    font-size: 11px;
+    width: 80px;
+    position: fixed;
+    left: 5%;
   }
 }

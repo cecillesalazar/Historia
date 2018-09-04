@@ -16,3 +16,14 @@
 .login-link a {
   position: relative;
 }
+
+@media only screen and (max-width: 500px) {
+  #logo {
+    font-size: 40px;
+    margin-top: 20%;
+  }
+  
+  #login {
+    font-size: 12px;
+  }
+}

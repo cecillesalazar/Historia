@@ -13,3 +13,9 @@
 .register-link a {
   position: relative;
 }
+
+@media only screen and (max-width: 500px) {
+  #register {
+    font-size: 12px;
+  }
+}

@@ -4,4 +4,19 @@
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+  padding: 2%;
+  background-color: white;
+  box-shadow: 0 0 10px 20px #fff;
+  border-radius: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .tutorial-text {
+    margin-top: 11%;
+    font-size: 12px;
+  }
+
+  #tutorial-button {
+    font-size: 13px;
+  }
 }

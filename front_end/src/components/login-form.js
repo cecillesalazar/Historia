@@ -1,8 +1,8 @@
 import React from 'react';
-import {Field, reduxForm, focus} from 'redux-form';
+import { Field, reduxForm, focus } from 'redux-form';
 import Input from './input';
-import {login} from '../actions/auth';
-import {required, nonEmpty} from '../validators';
+import { login } from '../actions/auth';
+import { required, nonEmpty } from '../validators';
 import './components-css/login-form.css';
 
 export class LoginForm extends React.Component {
@@ -21,7 +21,7 @@ export class LoginForm extends React.Component {
         }
         return (
           <div className="container">
-            <h1 className="logo">Historia</h1>
+            <h1 className="logo" id="logo">Historia</h1>
             <form
                 className="login-form"
                 onSubmit={this.props.handleSubmit(values =>

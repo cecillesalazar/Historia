@@ -1,3 +1,18 @@
+.dashboard {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url('https://s25.postimg.cc/i76al4a27/crown-of-thorns-2773399.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dashboard {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
 .logo {
   font-family: 'Cinzel', serif;
   text-align: center;
@@ -26,6 +41,7 @@
   margin-bottom: 1%;
   padding-bottom: 13px;
 }
+
  .tutorial-button {
    color: white;
    background-color: #4d4e4f;
@@ -53,11 +69,26 @@
 }
 
 @media only screen and (max-width: 750px) {
+  #logo {
+    font-size: 40px;
+    margin-top: 20%;
+  }
+
   .play-button {
     padding-bottom: 0px;
   }
 
   .tutorial-button {
     padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #play-button {
+    font-size: 11px;
+  }
+
+  #tutorial-button {
+    font-size: 11px;
   }
 }
