@@ -2,6 +2,8 @@ Historia is a collection of stories from a myriad of cultures which allows the u
 
 Link: https://stark-caverns-30288.herokuapp.com/
 
+![Historia](https://i.postimg.cc/R0rHhBJY/historia-tiny.png)
+
 How To Play:
 
 1. Create a username and password to log in.
