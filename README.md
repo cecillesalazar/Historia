@@ -1,3 +1,5 @@
+<p align="center">Historia</p>
+
 Historia is a collection of stories from a myriad of cultures which allows the user to make choices that determine the future plot and endings of the story.
 
 Link: https://stark-caverns-30288.herokuapp.com/
