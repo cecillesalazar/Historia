@@ -1,10 +1,15 @@
-<p align="center">Historia</p>
+# Historia
+
+### Links
+
+[Live app](https://stark-caverns-30288.herokuapp.com/)
+
+Demo username:  demouser    
+Demo password:  demopassword
+
+### Create Your Own Adventure
 
 Historia is a collection of stories from a myriad of cultures which allows the user to make choices that determine the future plot and endings of the story.
-
-Link: https://stark-caverns-30288.herokuapp.com/
-
-![Historia](https://i.postimg.cc/R0rHhBJY/historia-tiny.png)
 
 How To Play:
 
@@ -37,3 +42,14 @@ The following are desired updates that are difficult to tackle with daily life/w
 3. Allow sharing of stories from user to user.
 
 Please enjoy the game :)
+
+### Tech-Stack
+
+- Frontend: React, React-Router, Redux, Redux-Form, Redux-Thunk, Enzyme & Jest for testing
+
+- Backend: Node/Express app with user authentication using ByCrypt and JSON Web Tokens, passport.js, CORS, and Mocha & Chai for testing. Ramda library utilized to aid in helper functions.
+
+
+### Screenshots
+
+![Historia](https://i.postimg.cc/R0rHhBJY/historia-tiny.png)
