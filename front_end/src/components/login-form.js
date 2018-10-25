@@ -30,10 +30,12 @@ export class LoginForm extends React.Component {
         return (
           <div className="container">
             <h3 className="logo" id="logo">Historia</h3>
-            <div className="header-text">
+
+            <section className="header-text">
               <p>Historia is a game where you choose your own path.</p>
               <p>Your adventure awaits, are you ready?</p>
-            </div>
+            </section>
+
             <form
                 className="login-form"
                 onSubmit={this.props.handleSubmit(values =>
@@ -63,6 +65,7 @@ export class LoginForm extends React.Component {
                     <button className='demo-account' onClick={() => this.demoLogin()}>Play Demo</button>
                 </div>
             </form>
+            
           </div>
         );
     }

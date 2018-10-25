@@ -5,7 +5,7 @@ import Typing from 'react-typing-animation';
 export default class StoryNodeScript extends React.Component {
   render() {
     return (
-      <div>
+      <section>
         <div className="background-image-container">
           <img className="background-image" src={this.props.url} />
         </div>
@@ -24,7 +24,7 @@ export default class StoryNodeScript extends React.Component {
           </Typing>
           {this.props.children}
         </div>
-      </div>
+      </section>
     )
   }
 }

@@ -9,13 +9,13 @@ export function RegistrationPage(props) {
         return <Redirect to="/dashboard" />;
     }
     return (
-        <div className="home">
+        <section className="home">
             <h1 className="logo" id="logo">Historia</h1>
             <RegistrationForm />
             <div className="login-link">
               <Link id="login" to="/">Login</Link>
             </div>
-        </div>
+        </section>
     );
 }
 
