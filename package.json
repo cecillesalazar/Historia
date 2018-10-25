@@ -4,5 +4,8 @@
   "scripts": {
     "postinstall": "npm install --prefix back_end && npm run install-and-build --prefix front_end",
     "build": "npm --version"
+  },
+  "engines": {
+    "node": "8.11.1"
   }
 }
