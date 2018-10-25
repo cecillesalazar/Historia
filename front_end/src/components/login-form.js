@@ -10,6 +10,14 @@ export class LoginForm extends React.Component {
         return this.props.dispatch(login(values.username, values.password));
     }
 
+    demoLogin = () => {
+      document.getElementById('username').value = 'demouser';
+      document.getElementById('password').value = 'demopassword';
+      setTimeout(() => {
+        this.props.dispatch(login('demouser', 'demopassword'))
+      }, 500);
+    }
+
     render() {
         let error;
         if (this.props.error) {
@@ -47,6 +55,9 @@ export class LoginForm extends React.Component {
                 <button className="login-button" disabled={this.props.pristine || this.props.submitting}>
                     Log in
                 </button>
+                <div className='demo-account-container'>
+                    <a className='demo-account' onClick={() => this.demoLogin()}>Login to Demo Account</a>
+                </div>
             </form>
           </div>
         );
