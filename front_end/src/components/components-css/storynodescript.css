@@ -23,6 +23,7 @@
   font-family: Neucha, cursive;
   position: relative;
   display: block;
+  text-shadow: 0 0 10px #888888, 0 0 15px #888888;
 }
 
 .speaker-image-container {

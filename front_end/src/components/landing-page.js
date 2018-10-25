@@ -11,12 +11,12 @@ export function LandingPage(props) {
     }
 
     return (
-        <div className="home">
+        <section className="home">
             <LoginForm />
             <div className="register-link">
               <Link id="register" to="/register">Register</Link>
             </div>
-        </div>
+        </section>
     );
 }
 

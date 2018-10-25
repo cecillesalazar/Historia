@@ -19,7 +19,7 @@ class StoryNode extends React.Component {
   render() {
 
     return (
-      <div className={classNames({
+      <section className={classNames({
         'story-node-start': this.props.isStoryNodeStart,
         'story-node-end': this.props.isStoryNodeEnd,
         'story-node-middle': this.props.isStoryNodeMiddle
@@ -61,7 +61,7 @@ class StoryNode extends React.Component {
           playButton={this.props.playButton}
           displayDashboard={this.props.displayDashboard}
         />}
-      </div>
+      </section>
     )
   }
 }

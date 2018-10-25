@@ -10,6 +10,14 @@ export class LoginForm extends React.Component {
         return this.props.dispatch(login(values.username, values.password));
     }
 
+    demoLogin = () => {
+      document.getElementById('username').value = 'demouser';
+      document.getElementById('password').value = 'demopassword';
+      setTimeout(() => {
+        this.props.dispatch(login('demouser', 'demopassword'))
+      }, 500);
+    }
+
     render() {
         let error;
         if (this.props.error) {
@@ -21,7 +29,13 @@ export class LoginForm extends React.Component {
         }
         return (
           <div className="container">
-            <h1 className="logo" id="logo">Historia</h1>
+            <h3 className="logo" id="logo">Historia</h3>
+
+            <section className="header-text">
+              <p>Historia is a game where you choose your own path.</p>
+              <p>Your adventure awaits, are you ready?</p>
+            </section>
+
             <form
                 className="login-form"
                 onSubmit={this.props.handleSubmit(values =>
@@ -47,7 +61,11 @@ export class LoginForm extends React.Component {
                 <button className="login-button" disabled={this.props.pristine || this.props.submitting}>
                     Log in
                 </button>
+                <div className='demo-account-container'>
+                    <button className='demo-account' onClick={() => this.demoLogin()}>Play Demo</button>
+                </div>
             </form>
+            
           </div>
         );
     }
