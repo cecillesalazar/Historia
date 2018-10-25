@@ -29,7 +29,11 @@ export class LoginForm extends React.Component {
         }
         return (
           <div className="container">
-            <h1 className="logo" id="logo">Historia</h1>
+            <h3 className="logo" id="logo">Historia</h3>
+            <div className="header-text">
+              <p>Historia is a game where you choose your own path.</p>
+              <p>Your adventure awaits, are you ready?</p>
+            </div>
             <form
                 className="login-form"
                 onSubmit={this.props.handleSubmit(values =>
@@ -56,7 +60,7 @@ export class LoginForm extends React.Component {
                     Log in
                 </button>
                 <div className='demo-account-container'>
-                    <a className='demo-account' onClick={() => this.demoLogin()}>Login to Demo Account</a>
+                    <button className='demo-account' onClick={() => this.demoLogin()}>Play Demo</button>
                 </div>
             </form>
           </div>
